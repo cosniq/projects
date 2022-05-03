@@ -1,0 +1,10 @@
+D:\Industrial Informatics\Project\Testing App\Tester\Tester\bin\Debug\Tester.exe.config
+D:\Industrial Informatics\Project\Testing App\Tester\Tester\bin\Debug\Tester.exe
+D:\Industrial Informatics\Project\Testing App\Tester\Tester\bin\Debug\Tester.pdb
+D:\Industrial Informatics\Project\Testing App\Tester\Tester\obj\Debug\Tester.csprojAssemblyReference.cache
+D:\Industrial Informatics\Project\Testing App\Tester\Tester\obj\Debug\Tester.Form1.resources
+D:\Industrial Informatics\Project\Testing App\Tester\Tester\obj\Debug\Tester.Properties.Resources.resources
+D:\Industrial Informatics\Project\Testing App\Tester\Tester\obj\Debug\Tester.csproj.GenerateResource.cache
+D:\Industrial Informatics\Project\Testing App\Tester\Tester\obj\Debug\Tester.csproj.CoreCompileInputs.cache
+D:\Industrial Informatics\Project\Testing App\Tester\Tester\obj\Debug\Tester.exe
+D:\Industrial Informatics\Project\Testing App\Tester\Tester\obj\Debug\Tester.pdb

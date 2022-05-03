@@ -1,0 +1,231 @@
+1
+Checking if the login is working
+Login form
+username:test password:testp
+Succsefull login and opens new form
+Succsefull login and opens new form
+Passed
+2
+Working of appointment button
+Patient form PacientProfil
+Click on button
+Displays the form to be completed for appointment
+Displays the form
+Passed
+3
+Check Done button
+Patient form PacientProfil
+Click on button
+Return to the main patient page
+Return to the main patient page
+Passed
+4
+Check login for medic
+Login form
+username: testDoctor password: password
+Succsefull Login and opens the new form
+Succsefull Login and opens the new form
+Passed
+5
+Check login for specialist medic
+Login form
+username:  testSpecialistDoctor password: password
+Succsefull Login and opens the new form
+Succsefull Login and opens the new form
+Passed
+6
+Account type mismatch
+Authentification form
+Patient button user:testAdministrator pass:password
+Type mismatch
+MessageBox with Invalid Type
+Passed
+7
+Create new account for patient
+NewAccount form
+uss:reru pass:reru FirstName:Reru LastName:Rur Email:rem@yahoo.com Sex:m Date:1999-02-23
+Confirm new user
+MessageBox User Inserted
+Passed
+8
+Check the newly created account
+Authentification for type Patient
+uss:reru pass:reru LogIn button
+Move to patient profile
+Opens the patient profile
+Passed
+9
+Check the New Account button
+NewAccount form
+Press New Account Button
+Display the boxes to be completed for account
+Display the boxes to be completed for account
+Passed
+10
+Check the Make an appointment button
+Patient form
+Button press
+Display fields for the appointment
+Displays fields to be completed for appointment
+Passed
+11
+See if the boxes for the new appointment are working
+Patient form
+dep:Family Doctor:doctorFirstName doctorLastName
+Move to appointmentMaker and show available appointments
+Display the appointments in appointmentMaker
+Passed
+12
+Check doctor test account
+Log In Form
+uss:testDoctor pass:password
+Move to doctor's profile
+Moves to the profile of the doctor
+Passed
+13
+Check the doctor's appointment
+Medic form
+Press See Reserved Appointments Button
+Display list of appointments
+Displayed appointments in the list
+Passed
+14
+Make an appointment from doctor's profile
+Medic form
+patient:Reru Rur Department: Family SpDoc: specialDocFirstName specialDocLastName
+Move to appointmentMaker
+Displays the appointmentMaker
+Passed
+15
+Make new available appointment from doctor's profile
+AppointmentMaker
+Start: 2021-05-12 13:15 Stop: 2021-05-12 14:00
+By pressing insert button confirms the insertion
+Displays MessageBox 'Inserted'
+Passed
+16
+Test the new available appointment
+Medic Form to appointmentMaker
+Select the newly created appointment and click Reserve
+Display Reserved Appointment
+Displays the new Appointment
+Passed
+17
+Check if it appears in doctor's appointments
+Medic Form
+Click See Reserved Appointments button
+Display the list with Reru Rur appointment created
+Displays the list with all apointments including Reru Rur
+Passed
+18
+Check medical history of a patient and add entry to it
+Medic Form
+Select appointment and press Medical History button, type 'ilness' and submit entry
+Confirming the new entry
+MessageBox Entry Inserted
+Passed
+19
+Check if the new entry was added
+Medic Form
+From History select the newly created result
+Should display the 'ilness' in the entry details
+The field of the entry shows 'ilness'
+Passed
+20
+Check the login for test specialist doctor
+Authentification
+uss: testSpecialistDoctor  pass: password
+Succsefull login and opens new form
+Logged in and displayed the account of the specialist doctor
+Passed
+21
+Make an appointment for Reru from the Specialist Doctor profile
+Specialist Doctor Profile Form
+Patient:Reru Rur Department:Family Doctor name: specialistDoctorFirstName specialistDoctorLastName
+Moves to appointmentMaker for specialist
+Opens appointmentMaker and shows available appointments
+Passed
+22
+Create the new appointment for Reru
+AppointmentMaker
+Select the surgery appointment then click Reserve
+Confirm that appointment has been created
+MessageBox Appointment Reserved
+Passed
+23
+Check if the new appointment was added to the specialist doctor's profile
+Specialist Doctor Profile Form
+Click See Reserved Appointments
+Fills the appointments box with the newly created appointment
+Displayed the appointments including the new one for Reru
+Passed
+24
+Check the working of medical records from Specialist Doctor Profile
+Specialist Doctor Profile Form
+Select the appointment for surgery of Reru and press See Medical Records
+Displays the medical history of the patient
+Displays the list of medical history for patient Reru
+Passed
+25
+Change an entry of Reru from Special Doctor 
+History form
+Change 'ilness' entry to 'surgery'
+Confirm the change
+MessageBox Entry inserted
+Passed
+26
+Delete an appointment of the Specialist Doctor
+Specialist Doctor Profile Form
+select Reru surgery appointment and press Delete Selected
+Confirm deletion and refresh appointment list
+MessageBox Appointment deleted! and list refreshed
+Passed
+27
+Check Administrator login
+Authentification
+uss:testAdministrator pass:password
+Succsefull login and opens new form
+Logged in and displayed the account of the administrator
+Passed
+28
+Check administrator's ability to create a patient profile
+Administrator Form
+Press New Patient Profile
+Opens the NewAccount for type Patinet
+Opened NewAccount and displayed the fields for the an account of type Patient
+Passed
+29
+Check administrator's ability to create a doctor profile
+Administrator Form
+Press New Doctor Profile
+Opens the NewAccount for type Doctor
+Opened NewAccount and displayed the fields for the an account of type Doctor
+Passed
+30
+Check administrator's ability to create a specialist doctor profile
+Administrator Form
+Press Specialist Doctor Profile
+Opens the NewAccount for type Specialist Doctor
+Opened NewAccount and displayed the fields for the an account of type Specialist Doctor
+Passed
+31
+Check administrator's ability to change passwords
+Administrator Form to PasswordChanger Form
+Select user Reru and change the password to password1
+Confirm changed password.
+MessageBox Password changed!
+Passed
+32
+Check if the password for reru really changed by logging to reru account
+Authentification
+username:reru password:password1
+Opens the patient Reru profile
+Opens the profile of Reru thus password changed succsesfully
+Passed
+33
+Test1
+Specify the instance
+Insert input
+Insert expectations
+Yet to be tested
+Passed/Failed
