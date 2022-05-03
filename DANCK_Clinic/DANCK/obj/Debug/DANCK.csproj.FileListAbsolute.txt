@@ -1,0 +1,334 @@
+D:\Industrial Informatics\Project\Testing App\Application\DANCK\DANCK\bin\Debug\DANCK.exe.config
+D:\Industrial Informatics\Project\Testing App\Application\DANCK\DANCK\bin\Debug\DANCK.exe
+D:\Industrial Informatics\Project\Testing App\Application\DANCK\DANCK\bin\Debug\DANCK.pdb
+D:\Industrial Informatics\Project\Testing App\Application\DANCK\DANCK\obj\Debug\DANCK.csprojAssemblyReference.cache
+D:\Industrial Informatics\Project\Testing App\Application\DANCK\DANCK\obj\Debug\DANCK.Form1.resources
+D:\Industrial Informatics\Project\Testing App\Application\DANCK\DANCK\obj\Debug\DANCK.Properties.Resources.resources
+D:\Industrial Informatics\Project\Testing App\Application\DANCK\DANCK\obj\Debug\DANCK.csproj.GenerateResource.cache
+D:\Industrial Informatics\Project\Testing App\Application\DANCK\DANCK\obj\Debug\DANCK.csproj.CoreCompileInputs.cache
+D:\Industrial Informatics\Project\Testing App\Application\DANCK\DANCK\obj\Debug\DANCK.exe
+D:\Industrial Informatics\Project\Testing App\Application\DANCK\DANCK\obj\Debug\DANCK.pdb
+D:\Industrial Informatics\Project\Testing App\Application\DANCK\DANCK\obj\Debug\DANCK.PacientProfil.resources
+D:\Industrial Informatics\Project\Testing App\Application\DANCK\DANCK\obj\Debug\DANCK.Login.resources
+D:\Industrial Informatics\Project\Testing App\Application\DANCK\DANCK\obj\Debug\DANCK.MedicProfile.resources
+D:\Industrial Informatics\Project\Testing App\Application\DANCK\DANCK\obj\Debug\DANCK.SpecialistProfil.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\bin\Debug\DANCK.exe.config
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\bin\Debug\DANCK.exe
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\bin\Debug\DANCK.pdb
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\obj\Debug\DANCK.csprojAssemblyReference.cache
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\obj\Debug\DANCK.Form1.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\obj\Debug\DANCK.MedicProfile.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\obj\Debug\DANCK.Login.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\obj\Debug\DANCK.PacientProfil.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\obj\Debug\DANCK.Properties.Resources.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\obj\Debug\DANCK.SpecialistProfil.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\obj\Debug\DANCK.csproj.GenerateResource.cache
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\obj\Debug\DANCK.csproj.CoreCompileInputs.cache
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\obj\Debug\DANCK.exe
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\obj\Debug\DANCK.pdb
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\bin\Debug\MySql.Data.dll
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\obj\Debug\DANCK.csproj.CopyComplete
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\obj\Debug\DANCK.NewAccount.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK\DANCK\obj\Debug\DANCK.Administrator.resources
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.csprojAssemblyReference.cache
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.Administrator.resources
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.Form1.resources
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.MedicProfile.resources
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.Login.resources
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.NewAccount.resources
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.PacientProfil.resources
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.Properties.Resources.resources
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.SpecialistProfil.resources
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.csproj.GenerateResource.cache
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.csproj.CoreCompileInputs.cache
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.exe
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.pdb
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\bin\Debug\DANCK.exe.config
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\bin\Debug\DANCK.exe
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\bin\Debug\DANCK.pdb
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\bin\Debug\MySql.Data.dll
+D:\Industrial Informatics\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.csproj.CopyComplete
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\bin\Debug\DANCK.exe.config
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\bin\Debug\DANCK.exe
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\bin\Debug\DANCK.pdb
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\bin\Debug\MySql.Data.dll
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.csprojAssemblyReference.cache
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.Administrator.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.Form1.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.MedicProfile.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.Login.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.NewAccount.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.PacientProfil.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.Properties.Resources.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.SpecialistProfil.resources
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.csproj.GenerateResource.cache
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.csproj.CoreCompileInputs.cache
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.csproj.CopyComplete
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.exe
+D:\Facultate\anul III\Sem II\II\Proiect\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.pdb
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\bin\Debug\DANCK.exe.config
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\bin\Debug\DANCK.exe
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\bin\Debug\DANCK.pdb
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\bin\Debug\MySql.Data.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.csprojAssemblyReference.cache
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.Administrator.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.Form1.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.MedicProfile.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.Login.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.NewAccount.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.PacientProfil.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.Properties.Resources.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.SpecialistProfil.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.csproj.GenerateResource.cache
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.csproj.CoreCompileInputs.cache
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.csproj.CopyComplete
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.exe
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.pdb
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK_v2\DANCK_v2\DANCK_v2\DANCK\DANCK\obj\Debug\DANCK.appointmentMaker.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\DANCK.exe.config
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\DANCK.exe
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\DANCK.pdb
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\MySql.Data.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\Google.Protobuf.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\Zstandard.Net.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\BouncyCastle.Crypto.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\Ubiety.Dns.Core.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\Renci.SshNet.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\System.Memory.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\System.Buffers.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\K4os.Compression.LZ4.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\K4os.Hash.xxHash.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\System.Numerics.Vectors.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\bin\Debug\MySql.Data.xml
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.csprojAssemblyReference.cache
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.exe.config
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.Administrator.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.appointmentMaker.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.Form1.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.history.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.MedicProfile.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.Login.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.NewAccount.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.PacientProfil.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.Properties.Resources.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.SpecialistProfil.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.csproj.GenerateResource.cache
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.csproj.CoreCompileInputs.cache
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.csproj.CopyComplete
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.exe
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.pdb
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCKv3\DANCK\obj\Debug\DANCK.newAvailableAppointment.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\DANCK.exe.config
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\DANCK.exe
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\DANCK.pdb
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\MySql.Data.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\Google.Protobuf.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\Zstandard.Net.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\Renci.SshNet.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\System.Memory.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\System.Buffers.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\bin\Debug\MySql.Data.xml
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.csprojAssemblyReference.cache
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.exe.config
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.Administrator.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.appointmentMaker.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.Form1.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.history.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.MedicProfile.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.Login.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.NewAccount.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.newAvailableAppointment.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.PacientProfil.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.Properties.Resources.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.SpecialistProfil.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.csproj.GenerateResource.cache
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.csproj.CoreCompileInputs.cache
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.csproj.CopyComplete
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.exe
+C:\Users\dalia\Desktop\II\Proiect\Varianta 3\DANCK\obj\Debug\DANCK.pdb
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\DANCK.exe.config
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\DANCK.exe
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\DANCK.pdb
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\MySql.Data.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\Google.Protobuf.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\Zstandard.Net.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\BouncyCastle.Crypto.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\Ubiety.Dns.Core.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\Renci.SshNet.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\System.Memory.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\System.Buffers.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\K4os.Compression.LZ4.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\K4os.Hash.xxHash.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\System.Numerics.Vectors.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\bin\Debug\MySql.Data.xml
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.csprojAssemblyReference.cache
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.exe.config
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.Administrator.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.appointmentMaker.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.Form1.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.history.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.MedicProfile.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.Login.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.NewAccount.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.newAvailableAppointment.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.PacientProfil.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.Properties.Resources.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.SpecialistProfil.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.csproj.GenerateResource.cache
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.csproj.CoreCompileInputs.cache
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.csproj.CopyComplete
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.exe
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\Varianta 3\Varianta 3\DANCK\obj\Debug\DANCK.pdb
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\DANCK.exe.config
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\DANCK.exe
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\DANCK.pdb
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\Google.Protobuf.dll
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\Zstandard.Net.dll
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\BouncyCastle.Crypto.dll
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\Ubiety.Dns.Core.dll
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\Renci.SshNet.dll
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\System.Memory.dll
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\System.Buffers.dll
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\K4os.Compression.LZ4.dll
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\K4os.Hash.xxHash.dll
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\System.Numerics.Vectors.dll
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\bin\Debug\MySql.Data.xml
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.csprojAssemblyReference.cache
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.exe.config
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.Administrator.resources
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.appointmentMaker.resources
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.Form1.resources
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.history.resources
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.MedicProfile.resources
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.Login.resources
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.NewAccount.resources
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.newAvailableAppointment.resources
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.PacientProfil.resources
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.Properties.Resources.resources
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.SpecialistProfil.resources
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.csproj.GenerateResource.cache
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.csproj.CoreCompileInputs.cache
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.csproj.CopyComplete
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.exe
+E:\LearningMaterials\Facultate\AN 3\II\Proiect\DANCK v5(nemodificat)\DANCK\obj\Debug\DANCK.pdb
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\DANCK.exe.config
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\DANCK.exe
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\DANCK.pdb
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\MySql.Data.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\Google.Protobuf.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\Zstandard.Net.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\BouncyCastle.Crypto.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\Ubiety.Dns.Core.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\Renci.SshNet.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\System.Memory.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\System.Buffers.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\K4os.Compression.LZ4.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\K4os.Hash.xxHash.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\System.Numerics.Vectors.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\bin\Debug\MySql.Data.xml
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.csprojAssemblyReference.cache
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.exe.config
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.Administrator.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.appointmentMaker.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.Form1.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.history.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.MedicProfile.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.Login.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.NewAccount.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.newAvailableAppointment.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.PacientProfil.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.Properties.Resources.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.SpecialistProfil.resources
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.csproj.GenerateResource.cache
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.csproj.CoreCompileInputs.cache
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.csproj.CopyComplete
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.exe
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.pdb
+D:\Egyetem\Third Year\Second Semester\Industrial Informatics\Project\DANCK v5.5\DANCK v5.5\DANCK\obj\Debug\DANCK.PasswordChanger.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\DANCK.exe.config
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\DANCK.exe
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\DANCK.pdb
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\MySql.Data.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\Google.Protobuf.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\Zstandard.Net.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\Renci.SshNet.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\System.Memory.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\System.Buffers.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\bin\Debug\MySql.Data.xml
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.csprojAssemblyReference.cache
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.exe.config
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.Administrator.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.appointmentMaker.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.Form1.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.history.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.MedicProfile.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.Login.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.NewAccount.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.newAvailableAppointment.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.PacientProfil.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.PasswordChanger.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.Properties.Resources.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.SpecialistProfil.resources
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.csproj.GenerateResource.cache
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.csproj.CoreCompileInputs.cache
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.csproj.CopyComplete
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.exe
+C:\Users\dalia\Desktop\II\Proiect\Varianta finala\DANCK\obj\Debug\DANCK.pdb
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\DANCK.exe.config
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\DANCK.exe
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\DANCK.pdb
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\MySql.Data.dll
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\Google.Protobuf.dll
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\Zstandard.Net.dll
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\BouncyCastle.Crypto.dll
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\Ubiety.Dns.Core.dll
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\Renci.SshNet.dll
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\System.Memory.dll
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\System.Buffers.dll
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\K4os.Compression.LZ4.dll
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\K4os.Hash.xxHash.dll
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\System.Numerics.Vectors.dll
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\bin\Debug\MySql.Data.xml
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.csprojAssemblyReference.cache
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.exe.config
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.Administrator.resources
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.appointmentMaker.resources
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.Form1.resources
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.history.resources
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.MedicProfile.resources
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.Login.resources
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.NewAccount.resources
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.newAvailableAppointment.resources
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.PacientProfil.resources
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.PasswordChanger.resources
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.Properties.Resources.resources
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.SpecialistProfil.resources
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.csproj.GenerateResource.cache
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.csproj.CoreCompileInputs.cache
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.csproj.CopyComplete
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.exe
+D:\Industrial Informatics\DANCK_FinalVersion\Varianta finala\DANCK\obj\Debug\DANCK.pdb
