@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="./views/counterType/ct.css" />
+<h5>Counter Type Wizard</h5>
+<div
+  style="
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  "
+>
+  <div id="kendoCounterTypeGrid"></div>
+</div>
+<script>
+  $("#kendoCounterTypeGrid").kendoGrid({
+    columns: [
+      { field: "id", title: "ID", type: "number", editable: false },
+      { field: "name", title: "Name", type: "string" },
+      {
+        field: "unitOfMeasurement",
+        title: "Unit Of Measurement",
+        type: "string",
+      },
+      { command: "edit" },
+    ],
+    toolbar: [{ name: "create", text: "Add new Counter Type" }],
+    scrollable: true,
+    sortable: true,
+    pageable: false,
+    dataSource: {
+      data: [],
+    },
+    selectable: "row",
+    editable: "inline",
+    height: "600px",
+    dataBound: function (e) {},
+  });
+</script>

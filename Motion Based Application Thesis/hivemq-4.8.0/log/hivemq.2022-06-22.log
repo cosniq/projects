@@ -1,0 +1,59 @@
+2022-06-22 05:21:58,347 INFO  - Added Trace Recording 'VerificareClientC'
+2022-06-22 05:42:02,518 INFO  - Starting HiveMQ Enterprise Server
+2022-06-22 05:42:02,519 INFO  - HiveMQ version: 4.8.0
+2022-06-22 05:42:02,519 INFO  - HiveMQ home directory: D:\Hive\hivemq-4.8.0
+2022-06-22 05:42:02,521 INFO  - Log Configuration was overridden by D:\Hive\hivemq-4.8.0\conf\logback.xml
+2022-06-22 05:42:02,688 INFO  - This node's ID is O3ho3
+2022-06-22 05:42:02,688 INFO  - Clustering is disabled
+2022-06-22 05:42:23,923 INFO  - No valid license file found. Using trial license, restricted to 25 connections.
+2022-06-22 05:42:28,924 INFO  - This node uses '8' CPU cores.
+2022-06-22 05:42:28,928 INFO  - Starting HiveMQ extension system.
+2022-06-22 05:42:29,047 INFO  - Starting extension with id "hivemq-allow-all-extension" at D:\Hive\hivemq-4.8.0\extensions\hivemq-allow-all-extension
+2022-06-22 05:42:29,053 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2022-06-22 05:42:29,054 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2022-06-22 05:42:31,459 INFO  - O3ho3: no members discovered after 2000 ms: creating cluster as first member
+2022-06-22 05:42:31,474 INFO  - No user for HiveMQ Control Center configured. Starting with default user
+2022-06-22 05:42:31,475 INFO  - Starting HiveMQ Control Center on address 127.0.0.1 and port 8080
+2022-06-22 05:42:31,589 INFO  - Control Center Audit Logging started.
+2022-06-22 05:42:31,590 INFO  - Started HiveMQ Control Center in 115ms
+2022-06-22 05:42:31,600 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2022-06-22 05:42:31,835 INFO  - Started TCP Listener on address 0.0.0.0 and on port 1883.
+2022-06-22 05:42:31,835 INFO  - Started HiveMQ in 29321ms
+2022-06-22 15:18:32,000 INFO  - Starting HiveMQ Enterprise Server
+2022-06-22 15:18:32,039 INFO  - HiveMQ version: 4.8.0
+2022-06-22 15:18:32,039 INFO  - HiveMQ home directory: D:\Hive\hivemq-4.8.0
+2022-06-22 15:18:32,348 INFO  - Log Configuration was overridden by D:\Hive\hivemq-4.8.0\conf\logback.xml
+2022-06-22 15:18:37,684 INFO  - This node's ID is 5OHXp
+2022-06-22 15:18:37,685 INFO  - Clustering is disabled
+2022-06-22 15:27:30,710 INFO  - Starting HiveMQ Enterprise Server
+2022-06-22 15:27:30,711 INFO  - HiveMQ version: 4.8.0
+2022-06-22 15:27:30,711 INFO  - HiveMQ home directory: D:\Hive\hivemq-4.8.0
+2022-06-22 15:27:30,713 INFO  - Log Configuration was overridden by D:\Hive\hivemq-4.8.0\conf\logback.xml
+2022-06-22 15:27:30,870 INFO  - This node's ID is 5T4xt
+2022-06-22 15:27:30,871 INFO  - Clustering is disabled
+2022-06-22 15:35:33,429 INFO  - No valid license file found. Using trial license, restricted to 25 connections.
+2022-06-22 15:38:31,401 INFO  - This node uses '8' CPU cores.
+2022-06-22 15:38:31,405 INFO  - Starting HiveMQ extension system.
+2022-06-22 15:38:54,019 INFO  - Starting extension with id "hivemq-allow-all-extension" at D:\Hive\hivemq-4.8.0\extensions\hivemq-allow-all-extension
+2022-06-22 15:39:00,210 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2022-06-22 15:39:00,211 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2022-06-22 15:41:18,133 INFO  - 5T4xt: no members discovered after 2002 ms: creating cluster as first member
+2022-06-22 15:41:19,231 INFO  - No user for HiveMQ Control Center configured. Starting with default user
+2022-06-22 15:41:19,231 INFO  - Starting HiveMQ Control Center on address 127.0.0.1 and port 8080
+2022-06-22 15:42:49,677 INFO  - Control Center Audit Logging started.
+2022-06-22 15:42:49,678 INFO  - Started HiveMQ Control Center in 90446ms
+2022-06-22 15:42:54,425 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2022-06-22 15:42:56,039 INFO  - Started TCP Listener on address 0.0.0.0 and on port 1883.
+2022-06-22 15:42:56,039 INFO  - Started HiveMQ in 925334ms

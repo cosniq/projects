@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="./views/account/account.css" />
+<h5>Account Wizard</h5>
+<div
+  style="
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  "
+>
+  <form ng-submit="submit()" class="register-form" style="display: flex; flex-direction: column">
+    <label class="formLabel">Username</label>
+    <input type="text" ng-model="account.username" class="inputDes" />
+    <label class="formLabel">Email</label>
+    <input type="text" ng-model="account.email" />
+    <label class="formLabel">Date of birth</label>
+    <input id="datePicker" type="text" ng-model="account.dateOfBirth" />
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<script>
+  $("#datePicker").kendoDatePicker({
+    dateInput: true,
+    format: "yyyy-MM-dd",
+  });
+</script>

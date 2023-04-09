@@ -1,0 +1,24 @@
+ /// <summary>
+        /// Gets a unit of measurement of a counter
+        /// </summary>
+        /// <param name="counterId">The counters id in the db</param>
+        /// <returns>The unit of measurement</returns>
+        public string? GetUnitOfMeasurementOfACounter(int counterId)
+        {
+            var counterFromDb = DbContext.CountersViews.Where(c => c.Id == counterId).SingleOrDefault();
+            if (counterFromDb is null)
+            {
+                return null;
+            }
+            var counterTypeFromDb = DbContext.CounterTypesViews.Where(ct => ct.Id == counterFromDb.CounterType).SingleOrDefault();
+            if (counterTypeFromDb is null)
+            {
+                return null;
+            }
+            var unitOfMeasurement = DbContext.UnitsOfMeasurementViews.Where(uom => uom.Id == counterTypeFromDb.UnitOfMeasurement).SingleOrDefault();
+            if (unitOfMeasurement is null)
+            {
+                return null;
+            }
+            return unitOfMeasurement.Symbol.Trim();
+        }

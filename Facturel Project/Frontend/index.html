@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="invoices">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script
+      src="https://kit.fontawesome.com/0c006d41fe.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="css/landingPage.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./javascript/Dependencies/notifications.css"
+    />
+
+    <script src="./javascript/Dependencies/jquery.min.js"></script>
+    <script src="./javascript/Dependencies/kendo.all.min.js"></script>
+    <script src="./javascript/Dependencies/angular.min.js" defer></script>
+    <script src="./javascript/Dependencies/angular-route.min.js" defer></script>
+    <script src="./javascript/Dependencies/Observables.js"></script>
+    <script src="./javascript/Dependencies/notifications.js"></script>
+    <script
+      src="./javascript/Dependencies/angular-cookies.min.js"
+      defer
+    ></script>
+    <link
+      rel="stylesheet"
+      href="./javascript/Dependencies/kendo.common.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="javascript/Dependencies/kendo.default.min.css"
+    />
+    <link rel="stylesheet" href="./css/kendo.overrides.css" />
+
+    <script src="./javascript/utilities.js"></script>
+    <script src="./javascript/routing.js" defer></script>
+    <script src="./views/login/LoginController.js" defer></script>
+    <script src="./views/register/RegisterController.js" defer></script>
+    <script src="./views/dashboard/DashboardController.js" defer></script>
+    <script
+      src="./views/unitsOfMeasurement/UnitsOfMeasurementController.js"
+      defer
+    ></script>
+    <script src="./views/counterType/CounterTypeController.js" defer></script>
+    <script src="./views/invoiceType/InvoiceTypeController.js" defer></script>
+    <script src="./views/locationInvoiceTypeRelation/lit.js" defer></script>
+    <script src="./views/counters/CountersController.js" defer></script>
+    <script src="./views/account/AccountController.js" defer></script>
+    <title>Facturel</title>
+  </head>
+  <body>
+    <div class="background"></div>
+    <nav ng-controller="NavigationController">
+      <ul class="navbar">
+        <li ng-hide="loggedIn">
+          <div clas="icon">
+            <i
+              ng-click="goTo('/home')"
+              class="fas fa-house fa-2x"
+              id="home"
+            ></i>
+          </div>
+          <div class="navText" id="homeDiv">
+            <label class="home"><h1>Home</h1></label>
+          </div>
+        </li>
+
+        <li ng-show="loggedIn">
+          <div clas="icon">
+            <i
+              ng-click="goTo('/account')"
+              class="fa-solid fa-user fa-2x"
+              id="accountIcon"
+            ></i>
+          </div>
+          <div class="navText" id="accountDiv">
+            <label class="reg"><h1>Account</h1></label>
+          </div>
+        </li>
+
+        <li ng-hide="loggedIn">
+          <div class="icon">
+            <i
+              ng-click="goTo('/login')"
+              class="fa-solid fa-door-closed fa-2x"
+              id="door"
+            ></i>
+          </div>
+          <div class="navText" id="login">
+            <label class="log"><h1>Login</h1></label>
+          </div>
+        </li>
+        <li ng-hide="loggedIn">
+          <div class="icon">
+            <i
+              ng-click="goTo('/register')"
+              class="fa-solid fa-id-card fa-2x"
+              id="card"
+            ></i>
+          </div>
+          <div class="navText" id="register">
+            <label class="reg"><h1>Register</h1></label>
+          </div>
+        </li>
+
+        <li ng-show="loggedIn">
+          <div class="icon">
+            <i
+              ng-click="goTo('/dashboard')"
+              class="fa-solid fa-chart-line fa-2x"
+              id="dashboardIcon"
+            ></i>
+          </div>
+          <div class="navText" id="dashboardDiv">
+            <label class="reg"><h1>Dashboard</h1></label>
+          </div>
+        </li>
+        <li ng-show="loggedIn">
+          <div class="icon">
+            <i
+              ng-click="goTo('/counters')"
+              class="fa-solid fa-weight-scale fa-2x"
+              id="counterIcon"
+            ></i>
+          </div>
+          <div class="navText" id="counterDiv">
+            <label class="reg"><h1>Counters</h1></label>
+          </div>
+        </li>
+        <li ng-show="loggedIn">
+          <div class="icon">
+            <i
+              ng-click="goTo('/lit')"
+              class="fa-solid fa-list fa-2x"
+              id="litIcon"
+            ></i>
+          </div>
+          <div class="navText" id="litDiv">
+            <label class="reg"><h1>Relations</h1></label>
+          </div>
+        </li>
+
+        <li ng-show="loggedIn">
+          <div class="icon">
+            <i
+              ng-click="goTo('/invoiceType')"
+              class="fa-solid fa-file-invoice fa-2x"
+              id="invoiceIcon"
+            ></i>
+          </div>
+          <div class="navText" id="invoiceDiv">
+            <label class="reg"><h1>Invoices</h1></label>
+          </div>
+        </li>
+
+        <li ng-show="loggedIn">
+          <div class="icon">
+            <i
+              ng-click="goTo('/counterType')"
+              class="fa-solid fa-scale-balanced fa-2x"
+              id="counterTypeIcon"
+            ></i>
+          </div>
+          <div class="navText" id="counterTypeDiv">
+            <label class="reg"><h1>C. Types</h1></label>
+          </div>
+        </li>
+        <li ng-show="loggedIn">
+          <div class="icon">
+            <i
+              ng-click="goTo('/uom')"
+              class="fa-solid fa-ruler fa-2x"
+              id="uomIcon"
+            ></i>
+          </div>
+          <div class="navText" id="uomDiv">
+            <label class="reg"><h1>Measure</h1></label>
+          </div>
+        </li>
+        <li ng-show="loggedIn">
+          <div class="icon">
+            <i
+              ng-click="logout('/home')"
+              class="fa-solid fa-right-from-bracket fa-2x"
+              id="logoutIcon"
+            ></i>
+          </div>
+          <div class="navText" id="logoutDiv">
+            <label class="reg"><h1>Logout</h1></label>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div id="content" class="content" ng-view></div>
+  </body>
+
+  <script
+    type="text/javascript"
+    src="./javascript/navigation.js"
+    defer
+  ></script>
+</html>

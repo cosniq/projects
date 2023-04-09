@@ -1,0 +1,10 @@
+.content h5 {
+    position: absolute;
+    top: 15px;
+    /* transform: translateY(29px); */
+    pointer-events: none;
+    font-size: 2.5rem;
+    transition: 0.5s;
+    color: var(--myfont-color);
+  }
+  

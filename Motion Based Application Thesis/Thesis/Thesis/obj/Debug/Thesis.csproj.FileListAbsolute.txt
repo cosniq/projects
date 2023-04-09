@@ -1,0 +1,15 @@
+D:\Thesis C# client\Thesis\Thesis\bin\Debug\Thesis.exe.config
+D:\Thesis C# client\Thesis\Thesis\bin\Debug\Thesis.exe
+D:\Thesis C# client\Thesis\Thesis\bin\Debug\Thesis.pdb
+D:\Thesis C# client\Thesis\Thesis\bin\Debug\M2Mqtt.Net.dll
+D:\Thesis C# client\Thesis\Thesis\bin\Debug\M2Mqtt.Net.pdb
+D:\Thesis C# client\Thesis\Thesis\obj\Debug\Thesis.csprojAssemblyReference.cache
+D:\Thesis C# client\Thesis\Thesis\obj\Debug\Thesis.Form1.resources
+D:\Thesis C# client\Thesis\Thesis\obj\Debug\Thesis.Properties.Resources.resources
+D:\Thesis C# client\Thesis\Thesis\obj\Debug\Thesis.csproj.GenerateResource.cache
+D:\Thesis C# client\Thesis\Thesis\obj\Debug\Thesis.csproj.CoreCompileInputs.cache
+D:\Thesis C# client\Thesis\Thesis\obj\Debug\Thesis.csproj.CopyComplete
+D:\Thesis C# client\Thesis\Thesis\obj\Debug\Thesis.exe
+D:\Thesis C# client\Thesis\Thesis\obj\Debug\Thesis.pdb
+D:\Thesis C# client\Thesis\Thesis\bin\Debug\Newtonsoft.Json.dll
+D:\Thesis C# client\Thesis\Thesis\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,36 @@
+<div class="title-head">
+  <h2>Facturel project</h2>
+</div>
+
+<div class="description">
+  <h1>Hello there and welcome to <span class="enchanted">Facturel!</span></h1>
+  <h1 id="letters">
+    <!-- Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the
+    1500s, when an unknown printer took a galley of type and scrambled it to
+    make a type specimen book. It has survived not only five centuries, but also
+    the leap into electronic typesetting, remaining essentially unchanged. It
+    was popularised in the 1960s with the release of Letraset sheets containing
+    Lorem Ipsum passages, and more recently with desktop publishing software
+    like Aldus PageMaker including versions of Lorem Ipsum. -->
+  </h1>
+</div>
+
+<script>
+  var text = 'Here you can manage your invoices regarding any settlement that you have! We all know how with each passing month, more and more prices are being recievied either via a virtual method or in the mailbox. The task of keeping everything in mind or having a drawer filled with pieces of paper that will, by any means, be disposed after a while should be a matter of the past. Thus we offer a way of storing all your invoices using our website! Want to learn more? Go ahead and LOGIN or REGISTER! ';
+
+var textElements = text.split("").map(function(c) {
+  return $('<span id="' + c + '">' + c + '</span>');
+});
+
+var el = $('#letters');
+var delay = 15; 
+textElements.forEach(function(e, i) {
+  el.append(e);
+  e.hide();
+  setTimeout(function() {
+    e.fadeIn(100)
+  }, 100 + i * delay)
+})
+
+</script>

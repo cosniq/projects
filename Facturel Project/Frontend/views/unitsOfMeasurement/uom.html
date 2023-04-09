@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="./views/unitsOfMeasurement/uom.css" />
+<h5>UoM Wizard</h5>
+<div
+  style="
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  "
+>
+  <div id="kendoUoMGrid"></div>
+</div>
+<script>
+  $("#kendoUoMGrid").kendoGrid({
+    columns: [{ field: "symbol", title: "Symbol", type: "string" }],
+    toolbar: [{ name: "create" }],
+    scrollable: true,
+    sortable: true,
+    pageable: false,
+    dataSource: {
+      data: [],
+    },
+    selectable: "row",
+    editable: "popup",
+    height: "600px",
+  });
+</script>

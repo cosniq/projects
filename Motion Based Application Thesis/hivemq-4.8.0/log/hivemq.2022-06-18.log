@@ -1,0 +1,26 @@
+2022-06-18 14:18:05,138 INFO  - Starting HiveMQ Enterprise Server
+2022-06-18 14:18:05,140 INFO  - HiveMQ version: 4.8.0
+2022-06-18 14:18:05,140 INFO  - HiveMQ home directory: D:\Hive\hivemq-4.8.0
+2022-06-18 14:18:05,198 INFO  - Log Configuration was overridden by D:\Hive\hivemq-4.8.0\conf\logback.xml
+2022-06-18 14:18:05,747 INFO  - This node's ID is NbzdY
+2022-06-18 14:18:05,747 INFO  - Clustering is disabled
+2022-06-18 14:18:54,195 INFO  - No valid license file found. Using trial license, restricted to 25 connections.
+2022-06-18 14:19:00,103 INFO  - This node uses '8' CPU cores.
+2022-06-18 14:19:00,107 INFO  - Starting HiveMQ extension system.
+2022-06-18 14:19:00,353 INFO  - Starting extension with id "hivemq-allow-all-extension" at D:\Hive\hivemq-4.8.0\extensions\hivemq-allow-all-extension
+2022-06-18 14:19:00,440 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2022-06-18 14:19:00,441 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2022-06-18 14:19:03,079 INFO  - NbzdY: no members discovered after 2001 ms: creating cluster as first member
+2022-06-18 14:19:03,453 INFO  - No user for HiveMQ Control Center configured. Starting with default user
+2022-06-18 14:19:03,454 INFO  - Starting HiveMQ Control Center on address 127.0.0.1 and port 8080
+2022-06-18 14:19:04,276 INFO  - Control Center Audit Logging started.
+2022-06-18 14:19:04,277 INFO  - Started HiveMQ Control Center in 823ms
+2022-06-18 14:19:04,330 INFO  - Starting TCP listener on address 0.0.0.0 and port 1883
+2022-06-18 14:19:04,549 INFO  - Started TCP Listener on address 0.0.0.0 and on port 1883.
+2022-06-18 14:19:04,550 INFO  - Started HiveMQ in 59446ms

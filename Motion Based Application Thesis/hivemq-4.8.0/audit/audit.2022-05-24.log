@@ -1,0 +1,35 @@
+2022-05-24T11:35:16,339+03:00 | user:"admin" | IP:"127.0.0.1" | node:"JqqnY" | source:"Default Login" | Logged in successful
+2022-05-24T11:37:52,940+03:00 | user:"admin" | IP:"127.0.0.1" | node:"JqqnY" | source:"" | Created trace recording "Test8" with startTime:"2022-05-24T08:37:04+03:00", endTime:"2022-05-24T09:37:04+03:00", clientIdFilters:["CLID:1651832286529"], topicFilters:[],  packets:["d"]
+2022-05-24T11:38:11,651+03:00 | user:"admin" | IP:"127.0.0.1" | node:"JqqnY" | source:"" | Downloaded trace recording "Test8"
+2022-05-24T11:38:51,228+03:00 | user:"admin" | IP:"127.0.0.1" | node:"JqqnY" | source:"" | Downloaded trace recording "Test8"
+2022-05-24T11:39:46,206+03:00 | user:"admin" | IP:"127.0.0.1" | node:"JqqnY" | source:"" | Refreshed retained message snapshot
+2022-05-24T11:40:21,035+03:00 | user:"admin" | IP:"127.0.0.1" | node:"JqqnY" | source:"" | Refreshed clients snapshot
+2022-05-24T11:42:27,659+03:00 | user:"admin" | IP:"127.0.0.1" | node:"JqqnY" | source:"" | Inspected password for client with id "CLID:1651832286529"
+2022-05-24T11:43:00,063+03:00 | user:"admin" | IP:"127.0.0.1" | node:"JqqnY" | source:"" | Refreshed shared subscription snapshot
+2022-05-24T11:43:17,873+03:00 | user:"admin" | IP:"127.0.0.1" | node:"JqqnY" | source:"" | Refreshed retained message snapshot
+2022-05-24T11:46:49,351+03:00 | user:"admin" | IP:"127.0.0.1" | node:"JqqnY" | source:"" | Refreshed clients snapshot
+2022-05-24T11:47:54,163+03:00 | user:"admin" | IP:"127.0.0.1" | node:"JqqnY" | source:"" | Added shared subscription with topic "$share/OnsemiS/Onsemi" and qos 1 for client with id "CLID:1651832286529"
+2022-05-24T11:50:28,677+03:00 | user:"admin" | IP:"127.0.0.1" | node:"5zSpc" | source:"Default Login" | Logged in successful
+2022-05-24T11:51:29,335+03:00 | user:"admin" | IP:"127.0.0.1" | node:"5zSpc" | source:"" | Refreshed retained message snapshot
+2022-05-24T11:51:35,350+03:00 | user:"admin" | IP:"127.0.0.1" | node:"5zSpc" | source:"" | Refreshed clients snapshot
+2022-05-24T12:01:34,338+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"Default Login" | Logged in successful
+2022-05-24T12:02:41,787+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Refreshed retained message snapshot
+2022-05-24T12:03:04,291+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Refreshed clients snapshot
+2022-05-24T12:03:10,783+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Refreshed clients snapshot
+2022-05-24T12:03:12,497+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Refreshed clients snapshot
+2022-05-24T12:11:35,949+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Refreshed retained message snapshot
+2022-05-24T12:11:55,607+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Refreshed retained message snapshot
+2022-05-24T12:12:39,418+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Created trace recording "Test9" with startTime:"2022-05-24T09:12:10+03:00", endTime:"2022-05-24T10:12:10+03:00", clientIdFilters:["CLID:1651832286529"], topicFilters:[],  packets:["d","a"]
+2022-05-24T12:12:53,949+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Refreshed shared subscription snapshot
+2022-05-24T12:13:44,572+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Downloaded trace recording "Test9"
+2022-05-24T12:16:04,682+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Refreshed retained message snapshot
+2022-05-24T12:16:07,873+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Refreshed shared subscription snapshot
+2022-05-24T12:16:10,163+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Refreshed clients snapshot
+2022-05-24T12:16:14,051+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Refreshed clients snapshot
+2022-05-24T12:19:05,095+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Refreshed retained message snapshot
+2022-05-24T12:19:11,020+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Refreshed retained message snapshot
+2022-05-24T12:19:11,243+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Refreshed retained message snapshot
+2022-05-24T12:38:39,534+03:00 | user:"admin" | IP:"127.0.0.1" | node:"hQgvG" | source:"" | Refreshed retained message snapshot
+2022-05-24T14:40:01,880+03:00 | user:"admin" | IP:"127.0.0.1" | node:"LfdCO" | source:"Default Login" | Logged in successful
+2022-05-24T14:40:05,263+03:00 | user:"admin" | IP:"127.0.0.1" | node:"LfdCO" | source:"" | Refreshed clients snapshot
+2022-05-24T14:40:33,125+03:00 | user:"admin" | IP:"127.0.0.1" | node:"LfdCO" | source:"" | Refreshed clients snapshot

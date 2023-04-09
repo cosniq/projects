@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<hivemq>
+
+    <listeners>
+        <tcp-listener>
+            <port>1883</port>
+            <bind-address>0.0.0.0</bind-address>
+        </tcp-listener>
+    </listeners>
+	
+	 <mqtt>
+        <client-session-ttl>3600</client-session-ttl>
+    </mqtt>
+
+    <client-event-history>
+        <enabled>true</enabled>
+         <!-- 7 days -->
+    </client-event-history>
+
+</hivemq>

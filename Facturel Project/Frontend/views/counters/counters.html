@@ -1,0 +1,71 @@
+<link rel="stylesheet" href="./views/counters/counters.css" />
+<h5>Counters Wizard</h5>
+<div
+  style="
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  "
+>
+  <div id="kendoGridCounters"></div>
+</div>
+<script>
+  $("#kendoGridCounters").kendoGrid({
+    columns: [
+      { field: "id", title: "ID", type: "number", editable: false },
+      { field: "serialNumber", title: "Serial Number", type: "string" },
+      {
+        field: "counterType",
+        title: "Counter Type",
+        type: "string",
+        editable: false,
+      },
+      {
+        field: "locationDescription",
+        title: "Location Description",
+        type: "string",
+        editable: false,
+      },
+      { command: "edit" },
+    ],
+    scrollable: true,
+    sortable: true,
+    pageable: false,
+    dataSource: {
+      data: [],
+      group: {
+        field: "locationDescription",
+      },
+    },
+    selectable: "row",
+    editable: "inline",
+    height: "600px",
+    groupable: true,
+    cancel: function (e) {
+      e.preventDefault();
+      this.cancelRow();
+    },
+    dataBound: function (e) {
+      try {
+        const scope = angular.element(this.element[0]).scope();
+        const Counters = scope.Counters;
+        if (
+          Counters &&
+          Counters.length > this.dataSource.data().length &&
+          !scope.activeCall
+        ) {
+          scope.activeCall = true;
+          utils.helperFunctions.deleteAllDataFromDataSource(this.dataSource);
+          utils.helperFunctions.addAllDataToDataSource(
+            this.dataSource,
+            Counters
+          );
+          scope.activeCall = false;
+        }
+      } catch {
+        console.error("error");
+      }
+    },
+  });
+</script>

@@ -1,0 +1,855 @@
+!SESSION 2022-02-12 15:07:21.186 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product com.onsemi.swm.plugins.platform.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -data D:/OnSemiV2 -product com.onsemi.swm.plugins.platform.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-02-12 15:07:31.848
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nicu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2022-02-12 15:27:30.492 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-02-12 15:27:54.201
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nicu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-02-12 16:19:06.209
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.arm.cmsis.pack.installer.jobs.CpPackInstallJob
+!SESSION 2022-02-12 16:19:07.490 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-02-12 16:21:00.097
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nicu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-02-12 16:21:50.121
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at jar:file:Z:vendor-arm/plugins/embedcdt_plugin/org.eclipse.embedcdt.repository-6.0.0-202012080907.zip!/content.xml.xz.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:459)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:138)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Unable to get working directory of drive 'Z'
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:81)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:198)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1198)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:701)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:240)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:171)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:347)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:103)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:72)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:109)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:125)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:155)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:555)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:325)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:887)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:148)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:457)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:387)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:107)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:166)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:430)
+	... 13 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-02-12 16:21:50.122
+!MESSAGE Unable to read repository at jar:file:Z:vendor-arm/plugins/embedcdt_plugin/org.eclipse.embedcdt.repository-6.0.0-202012080907.zip!/content.xml.xz.
+!STACK 0
+java.io.IOException: Unable to get working directory of drive 'Z'
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:81)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:198)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1198)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:701)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:240)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:171)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:347)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:103)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:72)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:109)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:125)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:155)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:555)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:325)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:887)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:148)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:457)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:387)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:107)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:166)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:430)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:138)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-12 16:27:28.000
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.18, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-12 16:27:58.423
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.18/categories, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-12 16:28:27.058
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.18/R-4.18-202012021800/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-12 16:28:43.073
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/2020-12, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-12 16:29:09.580
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/2020-12/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-12 16:29:43.454
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/2020-12/202012101200, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-12 16:30:36.767
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/2020-12/202012161000/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-02-12 16:30:53.019
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at jar:file:Z:common_plugins.zip!/content.xml.xz.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:459)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:138)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Unable to get working directory of drive 'Z'
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:81)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:198)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1198)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:701)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:240)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:171)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:347)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:103)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:72)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:109)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:125)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:155)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:555)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:325)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:887)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:148)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:457)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:387)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:107)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:166)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:430)
+	... 13 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-02-12 16:30:53.019
+!MESSAGE Unable to read repository at jar:file:Z:common_plugins.zip!/content.xml.xz.
+!STACK 0
+java.io.IOException: Unable to get working directory of drive 'Z'
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:81)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:198)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1198)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:701)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:240)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:171)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:347)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:103)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:72)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:109)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:125)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:155)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:555)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:325)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:887)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:148)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:457)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:387)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:107)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:166)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:430)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:138)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-02-12 16:33:09.750
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at jar:file:Z:vendor-arm/plugins/CmsisPackPlugin2.6.1_custom.zip!/content.xml.xz.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:459)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:138)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Unable to get working directory of drive 'Z'
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:81)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:198)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1198)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:701)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:240)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:171)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:347)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:103)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:72)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:109)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:125)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:155)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:555)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:325)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:887)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:148)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:457)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:387)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:107)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:166)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:430)
+	... 13 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-02-12 16:33:09.750
+!MESSAGE Unable to read repository at jar:file:Z:vendor-arm/plugins/CmsisPackPlugin2.6.1_custom.zip!/content.xml.xz.
+!STACK 0
+java.io.IOException: Unable to get working directory of drive 'Z'
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:81)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:198)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1198)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:701)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:240)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:171)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:347)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:103)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:72)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:109)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:125)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:155)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:555)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:325)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:887)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:148)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:457)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:387)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:107)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:166)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:430)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:138)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-02-12 16:33:31.184
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-02-12 16:33:31.184
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.184
+!MESSAGE Software being installed: Embedded C/C++ Core 6.0.0.202012080907 (org.eclipse.embedcdt.feature.group 6.0.0.202012080907)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.184
+!MESSAGE Software currently installed: Embedded C/C++ OpenOCD Debugging 6.1.2.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.openocd.feature.group 6.1.2.202102181132)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:31.184
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.184
+!MESSAGE Embedded C/C++ UI Plug-in 6.0.0.202012080907 (org.eclipse.embedcdt.ui 6.0.0.202012080907)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.184
+!MESSAGE Embedded C/C++ UI Plug-in 6.1.1.202101200825 (org.eclipse.embedcdt.ui 6.1.1.202101200825)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.184
+!MESSAGE Embedded C/C++ UI Plug-in 6.1.2.202102181132 (org.eclipse.embedcdt.ui 6.1.2.202102181132)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:31.184
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.184
+!MESSAGE From: Embedded C/C++ OpenOCD Debugging 6.1.2.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.openocd.feature.group 6.1.2.202102181132)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.184
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.embedcdt.debug.gdbjtag.openocd.ui [5.0.0.202102181132,5.0.0.202102181132]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:31.184
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.184
+!MESSAGE From: Embedded C/C++ OpenOCD Debugging UI Plug-in 5.0.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.openocd.ui 5.0.0.202102181132)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.184
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.ui 6.1.2
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:31.184
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.184
+!MESSAGE From: Embedded C/C++ Core 6.0.0.202012080907 (org.eclipse.embedcdt.feature.group 6.0.0.202012080907)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.184
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.embedcdt.ui [6.0.0.202012080907,6.0.0.202012080907]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-02-12 16:33:31.283
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-02-12 16:33:31.283
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.283
+!MESSAGE Software being installed: Embedded C/C++ Core 6.0.0.202012080907 (org.eclipse.embedcdt.feature.group 6.0.0.202012080907)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.283
+!MESSAGE Software currently installed: Embedded C/C++ OpenOCD Debugging 6.1.2.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.openocd.feature.group 6.1.2.202102181132)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:31.283
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.283
+!MESSAGE Embedded C/C++ UI Plug-in 6.0.0.202012080907 (org.eclipse.embedcdt.ui 6.0.0.202012080907)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.283
+!MESSAGE Embedded C/C++ UI Plug-in 6.1.1.202101200825 (org.eclipse.embedcdt.ui 6.1.1.202101200825)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.283
+!MESSAGE Embedded C/C++ UI Plug-in 6.1.2.202102181132 (org.eclipse.embedcdt.ui 6.1.2.202102181132)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:31.283
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.283
+!MESSAGE From: Embedded C/C++ OpenOCD Debugging 6.1.2.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.openocd.feature.group 6.1.2.202102181132)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.283
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.embedcdt.debug.gdbjtag.openocd.ui [5.0.0.202102181132,5.0.0.202102181132]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:31.283
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.283
+!MESSAGE From: Embedded C/C++ OpenOCD Debugging UI Plug-in 5.0.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.openocd.ui 5.0.0.202102181132)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.283
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.ui 6.1.2
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:31.283
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.283
+!MESSAGE From: Embedded C/C++ Core 6.0.0.202012080907 (org.eclipse.embedcdt.feature.group 6.0.0.202012080907)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:31.284
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.embedcdt.ui [6.0.0.202012080907,6.0.0.202012080907]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-02-12 16:33:32.307
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-02-12 16:33:32.307
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.307
+!MESSAGE Software being installed: Embedded C/C++ Core 6.0.0.202012080907 (org.eclipse.embedcdt.feature.group 6.0.0.202012080907)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.307
+!MESSAGE Software currently installed: Embedded C/C++ OpenOCD Debugging 6.1.2.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.openocd.feature.group 6.1.2.202102181132)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:32.307
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.307
+!MESSAGE Embedded C/C++ UI Plug-in 6.0.0.202012080907 (org.eclipse.embedcdt.ui 6.0.0.202012080907)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.307
+!MESSAGE Embedded C/C++ UI Plug-in 6.1.1.202101200825 (org.eclipse.embedcdt.ui 6.1.1.202101200825)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.307
+!MESSAGE Embedded C/C++ UI Plug-in 6.1.2.202102181132 (org.eclipse.embedcdt.ui 6.1.2.202102181132)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:32.307
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.307
+!MESSAGE From: Embedded C/C++ OpenOCD Debugging 6.1.2.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.openocd.feature.group 6.1.2.202102181132)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.307
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.embedcdt.debug.gdbjtag.openocd.ui [5.0.0.202102181132,5.0.0.202102181132]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:32.307
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.307
+!MESSAGE From: Embedded C/C++ OpenOCD Debugging UI Plug-in 5.0.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.openocd.ui 5.0.0.202102181132)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.307
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.ui 6.1.2
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:32.307
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.307
+!MESSAGE From: Embedded C/C++ Core 6.0.0.202012080907 (org.eclipse.embedcdt.feature.group 6.0.0.202012080907)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.307
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.embedcdt.ui [6.0.0.202012080907,6.0.0.202012080907]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-02-12 16:33:32.314
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-02-12 16:33:32.314
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.314
+!MESSAGE Software being installed: Embedded C/C++ Core 6.0.0.202012080907 (org.eclipse.embedcdt.feature.group 6.0.0.202012080907)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.314
+!MESSAGE Software currently installed: Embedded C/C++ OpenOCD Debugging 6.1.2.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.openocd.feature.group 6.1.2.202102181132)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:32.314
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.314
+!MESSAGE Embedded C/C++ UI Plug-in 6.0.0.202012080907 (org.eclipse.embedcdt.ui 6.0.0.202012080907)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.314
+!MESSAGE Embedded C/C++ UI Plug-in 6.1.1.202101200825 (org.eclipse.embedcdt.ui 6.1.1.202101200825)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.314
+!MESSAGE Embedded C/C++ UI Plug-in 6.1.2.202102181132 (org.eclipse.embedcdt.ui 6.1.2.202102181132)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:32.314
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.314
+!MESSAGE From: Embedded C/C++ OpenOCD Debugging 6.1.2.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.openocd.feature.group 6.1.2.202102181132)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.314
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.embedcdt.debug.gdbjtag.openocd.ui [5.0.0.202102181132,5.0.0.202102181132]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:32.314
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.314
+!MESSAGE From: Embedded C/C++ OpenOCD Debugging UI Plug-in 5.0.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.openocd.ui 5.0.0.202102181132)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.314
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.ui 6.1.2
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-02-12 16:33:32.314
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.314
+!MESSAGE From: Embedded C/C++ Core 6.0.0.202012080907 (org.eclipse.embedcdt.feature.group 6.0.0.202012080907)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-02-12 16:33:32.314
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.embedcdt.ui [6.0.0.202012080907,6.0.0.202012080907]
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-12 16:34:28.295
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.18, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-12 16:34:37.174
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.18/R-4.18-202012021800/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-12 16:34:47.071
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/2020-12, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-12 16:34:58.935
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/2020-12/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-12 16:35:08.538
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/2020-12/202012101200, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-12 16:35:16.834
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/2020-12/202012161000/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-12 16:35:21.759
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/2020-12, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-12 16:35:27.682
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/2020-12/202012161000/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+!SESSION 2022-02-12 16:38:32.660 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -data file:/D:/OnSemiV2/ -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-02-12 16:39:04.626
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nicu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-02-12 16:43:00.884
+!MESSAGE Indexed 'sense_ics_firmware_sleep' (63 sources, 393 headers) in 11.9 sec: 26,356 declarations; 81,252 references; 0 unresolved inclusions; 2 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-02-12 16:44:21.428
+!MESSAGE Indexed 'sense_ics_firmware_sleep' (63 sources, 393 headers) in 4.83 sec: 26,356 declarations; 81,073 references; 0 unresolved inclusions; 2 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-12 16:49:09.375
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-12 16:49:10.424
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-12 16:51:04.011
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-12 16:51:04.493
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-12 16:55:45.712
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-12 16:55:46.198
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-12 16:56:20.263
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-12 16:56:20.542
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-12 16:57:32.294
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-12 16:57:32.828
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-12 17:00:14.567
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-12 17:00:15.051
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-12 17:01:35.473
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-12 17:01:35.955
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-12 17:03:06.883
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -nogui -if SWD
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-12 17:03:07.223
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-12 17:09:11.017
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2334 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -nogui -if SWD
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-12 17:09:11.544
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-12 17:09:50.814
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 233 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -nogui -if SWD
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-12 17:09:51.094
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-12 17:10:32.863
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -nogui -if SWD
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-12 17:10:33.344
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-12 17:11:22.366
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -nogui -if SWD
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-12 17:11:22.845
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-12 17:11:58.754
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -nogui -if SWD
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-12 17:11:59.038
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-12 17:12:41.951
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -if SWD -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-12 17:12:42.433
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.core.resources 4 566 2022-02-12 17:12:58.013
+!MESSAGE Workspace was not properly initialized or has already shutdown.
+!SESSION 2022-02-12 22:19:24.544 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-02-12 22:20:05.785
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nicu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-12 22:20:33.383
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -if SWD -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-12 22:20:34.142
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+!SESSION 2022-02-19 21:17:20.693 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-02-19 21:22:03.398
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nicu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-19 21:26:36.099
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -if SWD -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-19 21:26:38.019
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-19 21:40:30.274
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -if SWD -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-02-19 21:40:31.821
+!MESSAGE J-Link GDB Server failed: 
+Could not connect to target. Please check if target is powered and if ribbon cable is plugged properly.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-19 21:41:48.342
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -if SWD -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-02-19 21:41:50.448
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+!SESSION 2022-03-04 14:03:08.971 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-04 14:04:15.281
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nicu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 566 2022-03-04 14:06:17.837
+!MESSAGE Workspace was not properly initialized or has already shutdown.
+!SESSION 2022-06-21 23:46:56.750 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-21 23:47:57.369
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nicu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-06-22 14:13:19.870
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -if SWD -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-06-22 14:13:21.536
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+!SESSION 2022-06-22 14:15:13.732 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-06-22 14:15:23.837
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-22 14:16:02.340
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nicu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-06-22 14:17:06.774
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -if SWD -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-06-22 14:17:07.070
+!MESSAGE J-Link GDB Server failed: 
+Could not listen on tcp port. Please check if another version of the server is running.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-06-22 14:17:44.814
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -if SWD -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-06-22 14:17:45.096
+!MESSAGE J-Link GDB Server failed: 
+Could not listen on tcp port. Please check if another version of the server is running.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-06-22 14:19:03.289
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -if SWD -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-06-22 14:19:03.594
+!MESSAGE J-Link GDB Server failed: 
+Could not listen on tcp port. Please check if another version of the server is running.
+
+For more details, see the JLinkGDBServerCL.exe console.
+
+!ENTRY org.eclipse.core.resources 4 566 2022-06-22 14:19:33.918
+!MESSAGE Workspace was not properly initialized or has already shutdown.
+!SESSION 2022-06-22 14:47:39.182 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-22 14:51:57.835
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nicu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2022-06-22 14:55:09.850 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -data file:/D:/OnSemiV2/ -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-22 14:55:17.506
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nicu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-06-22 15:05:20.597
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -if SWD -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-06-22 15:05:23.076
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-06-22 15:08:19.339
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -if SWD -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-06-22 15:08:19.621
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-06-22 15:13:10.963
+!MESSAGE Indexed 'sense_ics_firmware_sleep' (63 sources, 393 headers) in 18 sec: 26,356 declarations; 81,252 references; 0 unresolved inclusions; 2 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-06-22 15:13:25.620
+!MESSAGE Indexed 'sense_ics_firmware_sleep' (63 sources, 393 headers) in 4.12 sec: 26,356 declarations; 81,073 references; 0 unresolved inclusions; 2 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2022-06-22 15:13:49.793
+!MESSAGE Debug session 'sense_ics_firmware_sleep Release' already started. Terminate the first one before restarting.
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-06-22 15:14:38.099
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -if SWD -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-06-22 15:14:38.380
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-06-22 17:18:05.030
+!MESSAGE C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe -if swd -device RSL10 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -vd -ir -localhostonly 1 -singlerun -strict -timeout 0 -if SWD -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2022-06-22 17:18:05.464
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-06-22 17:18:33.323
+!MESSAGE Request monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBProcesses_7_0$6@2ff6ecf5): Status CANCEL: unknown code=1 ' resulted in a cancel status: Status CANCEL: unknown code=1 , even though the request is not set to cancel.

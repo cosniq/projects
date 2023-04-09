@@ -1,0 +1,260 @@
+<h5>Dashboard Wizard</h5>
+<div id="dashboardMainDiv">
+  <div id="kendoGridDashboard"></div>
+</div>
+<link rel="stylesheet" href="./views/dashboard/dashboard.css" />
+<script>
+  let controlLocatie=0;
+  Observables.deleteAllSubscriptions();
+  Observables.deleteObservable("isDirty");
+  Observables.deleteObservable("selectedLocation");
+  Observables.deleteObservable("monthToBeEdited");
+  Observables.deleteObservable("currentlyEditedCell");
+  $("#kendoGridDashboard").kendoGrid({
+    dataSource: {
+      type: "json",
+      data: [],
+    },
+    selectable: "multiple",
+    toolbar: [
+      { name: "create", text: "Add new Location" },
+      { name: "CustomSave", text: "Save" },
+      {
+        name: "CustomGenerateNewMonth",
+        text: "Generate new Month for Location",
+      },
+    ],
+    height: 600,
+    sortable: true,
+    pageable: false,
+    scrollable: true,
+    resizable: true,
+    columns: [
+      {
+        field: "address",
+        title: "Location Address",
+        width: "110px",
+      },
+      {
+        field: "description",
+        title: "Location Description",
+        width: "110px",
+      },
+      { command: "edit", width: "110px" },
+    ],
+    detailInit: function (e) {
+      $(".k-primary").removeClass("k-primary");
+      $("#kendoGridDashboard").getKendoGrid().select($(e.masterRow));
+      const locationDescription = e.data.description;
+      if(controlLocatie==0)
+      {
+        // $(".k-plus").removeClass("rotateAnimation");
+        $(".k-minus").addClass("rotateInverseAnimation").one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend", function(){
+            $(".k-minus").removeClass( "rotateInverseAnimation" ); });
+        controlLocatie=1;
+      }else{
+        $(".k-plus").addClass("rotateAnimation").one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend", function(){
+            $(this).removeClass( "animation" );});
+        $(".k-plus").removeClass("rotateAnimation");
+        controlLocatie=0;
+      }
+      
+      initializeMonthsGrid(e, locationDescription);
+    },
+    width: "250px",
+    selectable: "row",
+    editable: "popup",
+    edit: function (e) {
+      $(".k-primary").removeClass("k-primary");
+      if (!Observables.isDirty) {
+        // make sure that the row is selected
+        const selectedRow = e.sender.select();
+        const rowToBeEdited = $("#kendoGridDashboard")
+          .find(`td:contains('${e.model.description}')`)
+          .first()
+          .parents("tr")
+          .first();
+        if (selectedRow.length === 0 || selectedRow[0] !== rowToBeEdited[0]) {
+          e.sender.select(rowToBeEdited);
+        }
+      } else {
+        this.cancelRow();
+        Observables.isDirty = true;
+        
+      }
+    },
+  });
+
+  const initializeMonthsGrid = function (e, locationDescription) {
+    
+    $(`<div id='monthGridForLocation:${locationDescription}'/>`)
+      .appendTo(e.detailCell)
+      .kendoGrid({
+        dataSource: {
+          type: "json",
+          data: ViewModel.locations.find(
+            (l) => l.description == locationDescription
+          ).months,
+        },
+        scrollable: true,
+        sortable: true,
+        pageable: false,
+        columns: [
+          { field: "description", title: "Months Description", width: "110px" },
+          { command: "edit", width: "110px" },
+        ],
+        dataBound: function (e) {
+          Observables.isDirty = Observables.isDirty;
+        },
+        detailInit: function (e) {
+          $("#kendoGridDashboard").getKendoGrid().select($(e.masterRow));
+          e.sender.select(e.masterRow);
+          const monthDescription = e.data.description;
+          const locationDescription = e.sender._cellId
+            .replace("_active_cell", "")
+            .replace("monthGridForLocation:", "");
+          initializeInvoicesGrid(e, locationDescription, monthDescription);
+        },
+        selectable: "row",
+        editable: "popup",
+        change: function (e) {
+          $("#kendoGridDashboard").getKendoGrid().select(e.sender.select());
+          
+        },
+        edit: function (e) {
+          $(".k-primary").removeClass("k-primary");
+          if (!Observables.isDirty) {
+            // make sure that the row is selected
+            const selectedRow = this.select();
+            const rowToBeEdited = $(
+              document.getElementById(this._cellId.replace("_active_cell", ""))
+            )
+              .find(`td:contains('${e.model.description}')`)
+              .first()
+              .parents("tr")
+              .first();
+            if (
+              selectedRow.length === 0 ||
+              selectedRow[0] !== rowToBeEdited[0]
+            ) {
+              this.select(rowToBeEdited);
+            }
+
+            Observables.monthToBeEdited = e.model.description;
+          } else {
+            this.cancelRow();
+            Observables.isDirty = Observables.isDirty;
+          }
+        },
+      });
+    utils.helperFunctions.makeBindingsForMonthGrid(
+      `monthGridForLocation:${locationDescription}`
+    );
+  };
+
+  const initializeInvoicesGrid = function (
+    e,
+    locationDescription,
+    monthDescription
+  ) {
+    $(`<div id='invoicesGridForMonth:${monthDescription}'/>`)
+      .appendTo(e.detailCell)
+      .kendoGrid({
+        dataSource: {
+          type: "json",
+          data: ViewModel.locations
+            .find((l) => l.description == locationDescription)
+            .months.find((m) => m.description == monthDescription).invoices,
+        },
+        columns: [
+          {
+            field: "invoiceTypeName",
+            title: "Type Name",
+            width: "110px",
+            type: "string",
+            editable: false,
+          },
+          { field: "price", title: "Price", width: "110px" },
+          { field: "paid", title: "Paid", type: "boolean", width: "110px" },
+          {
+            field: "counter.serialNr",
+            title: "Counter's Serial Number",
+            width: "110px",
+            type: "number",
+            editable: false,
+          },
+          {
+            field: "counter.unitOfMeasurement",
+            title: "Counter's Unit of Measurement",
+            width: "110px",
+            type: "string",
+            editable: false,
+          },
+          {
+            field: "indexReading.indexReading",
+            title: "Index Readings's value",
+            width: "110px",
+            type: "number",
+          },
+          {
+            field: "indexReading.dateOfReading",
+            title: "Index Readings's date",
+            width: "110px",
+            type: "date",
+            template:
+              "#= kendo.toString(kendo.parseDate(indexReading.dateOfReading, 'yyyy. MM. dd.'), 'yyyy. MM. dd.') #",
+          },
+        ],
+        toolbar: [{ name: "cancel" }],
+        scrollable: true,
+        pageable: false,
+        sortable: true,
+        editable: "incell",
+        change: function (e) {
+          const grid = this.select()
+            .parents("[data-role='grid']")
+            .first()
+            .getKendoGrid();
+          const row = this.select().closest("tr");
+          const rowIdx = $("tr", grid.tbody).index(row);
+          const colIdx = $("td", row).index(this.select());
+          const colName = this.select()
+            .parents("[data-role='grid']")
+            .first()
+            .find("th")
+            .eq(colIdx)
+            .text();
+
+          const invoiceTypeName = this.select()
+            .parent()
+            .find("td")
+            .first()
+            .text();
+          const monthDescription = this.select()
+            .parents("[data-role='grid']")
+            .first()
+            .attr("id")
+            .replace("invoicesGridForMonth:", "");
+
+          const locationDescription = this.select()
+            .parents("[data-role='grid']")
+            .first()
+            .parents("[data-role='grid']")
+            .first()
+            .attr("id")
+            .replace("monthGridForLocation:", "");
+          Observables.currentlyEditedCell = {
+            column: colName,
+            invoiceTypeName: invoiceTypeName,
+            monthDescription: monthDescription,
+            locationDescription: locationDescription,
+          };
+        },
+        selectable: "cell",
+      });
+
+    utils.helperFunctions.makeBindingsForInvoicesGrid(
+      `invoicesGridForMonth:${monthDescription}`
+    );
+  };
+</script>

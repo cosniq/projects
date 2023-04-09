@@ -1,0 +1,239 @@
+2022/06/27-00:11:32.985799 4828 RocksDB version: 6.26.1
+2022/06/27-00:11:32.985850 4828 Git sha 4d57a393a8f1563c0dff1ff468756c23d89e3601
+2022/06/27-00:11:32.985867 4828 Compile date 2021-11-22 13:08:56
+2022/06/27-00:11:32.985879 4828 DB SUMMARY
+2022/06/27-00:11:32.985890 4828 DB Session ID:  CB25H8QX5W7OY24YHXTO
+2022/06/27-00:11:32.988720 4828 CURRENT file:  CURRENT
+2022/06/27-00:11:32.988740 4828 IDENTITY file:  IDENTITY
+2022/06/27-00:11:32.989008 4828 MANIFEST file:  MANIFEST-000084 size: 59 Bytes
+2022/06/27-00:11:32.989025 4828 SST files in D:\Hive\hivemq-4.8.0\data\persistence\retained_messages\040800_R\retained_messages_14 dir, Total Num: 0, files: 
+2022/06/27-00:11:32.989042 4828 Write Ahead Log file in D:\Hive\hivemq-4.8.0\data\persistence\retained_messages\040800_R\retained_messages_14: 000085.log size: 95 ; 
+2022/06/27-00:11:33.295182 4828                         Options.error_if_exists: 0
+2022/06/27-00:11:33.295191 4828                       Options.create_if_missing: 1
+2022/06/27-00:11:33.295198 4828                         Options.paranoid_checks: 1
+2022/06/27-00:11:33.295205 4828             Options.flush_verify_memtable_count: 1
+2022/06/27-00:11:33.295212 4828                               Options.track_and_verify_wals_in_manifest: 0
+2022/06/27-00:11:33.295220 4828                                     Options.env: 00000200AA459AC0
+2022/06/27-00:11:33.295227 4828                                      Options.fs: WinFS
+2022/06/27-00:11:33.295234 4828                                Options.info_log: 00000200AC87B290
+2022/06/27-00:11:33.295242 4828                Options.max_file_opening_threads: 16
+2022/06/27-00:11:33.295249 4828                              Options.statistics: 00000200A97D0FA0
+2022/06/27-00:11:33.295256 4828                               Options.use_fsync: 0
+2022/06/27-00:11:33.295263 4828                       Options.max_log_file_size: 512000
+2022/06/27-00:11:33.295269 4828                  Options.max_manifest_file_size: 1073741824
+2022/06/27-00:11:33.295276 4828                   Options.log_file_time_to_roll: 0
+2022/06/27-00:11:33.295283 4828                       Options.keep_log_file_num: 2
+2022/06/27-00:11:33.295290 4828                    Options.recycle_log_file_num: 0
+2022/06/27-00:11:33.295296 4828                         Options.allow_fallocate: 1
+2022/06/27-00:11:33.295303 4828                        Options.allow_mmap_reads: 0
+2022/06/27-00:11:33.295310 4828                       Options.allow_mmap_writes: 0
+2022/06/27-00:11:33.295317 4828                        Options.use_direct_reads: 0
+2022/06/27-00:11:33.295324 4828                        Options.use_direct_io_for_flush_and_compaction: 0
+2022/06/27-00:11:33.295331 4828          Options.create_missing_column_families: 0
+2022/06/27-00:11:33.295338 4828                              Options.db_log_dir: 
+2022/06/27-00:11:33.295353 4828                                 Options.wal_dir: 
+2022/06/27-00:11:33.295362 4828                Options.table_cache_numshardbits: 6
+2022/06/27-00:11:33.295369 4828                         Options.WAL_ttl_seconds: 0
+2022/06/27-00:11:33.295376 4828                       Options.WAL_size_limit_MB: 0
+2022/06/27-00:11:33.295384 4828                        Options.max_write_batch_group_size_bytes: 1048576
+2022/06/27-00:11:33.295392 4828             Options.manifest_preallocation_size: 4194304
+2022/06/27-00:11:33.295399 4828                     Options.is_fd_close_on_exec: 1
+2022/06/27-00:11:33.295407 4828                   Options.advise_random_on_open: 1
+2022/06/27-00:11:33.295415 4828                   Options.experimental_mempurge_threshold: 0.000000
+2022/06/27-00:11:33.295423 4828                    Options.db_write_buffer_size: 0
+2022/06/27-00:11:33.295430 4828                    Options.write_buffer_manager: 00000200ABC3BA90
+2022/06/27-00:11:33.295437 4828         Options.access_hint_on_compaction_start: 1
+2022/06/27-00:11:33.295445 4828  Options.new_table_reader_for_compaction_inputs: 0
+2022/06/27-00:11:33.295452 4828           Options.random_access_max_buffer_size: 1048576
+2022/06/27-00:11:33.295459 4828                      Options.use_adaptive_mutex: 0
+2022/06/27-00:11:33.295668 4828                            Options.rate_limiter: 0000000000000000
+2022/06/27-00:11:33.295677 4828     Options.sst_file_manager.rate_bytes_per_sec: 0
+2022/06/27-00:11:33.295684 4828                       Options.wal_recovery_mode: 2
+2022/06/27-00:11:33.295691 4828                  Options.enable_thread_tracking: 0
+2022/06/27-00:11:33.295698 4828                  Options.enable_pipelined_write: 0
+2022/06/27-00:11:33.295705 4828                  Options.unordered_write: 0
+2022/06/27-00:11:33.295713 4828         Options.allow_concurrent_memtable_write: 1
+2022/06/27-00:11:33.295720 4828      Options.enable_write_thread_adaptive_yield: 1
+2022/06/27-00:11:33.295727 4828             Options.write_thread_max_yield_usec: 100
+2022/06/27-00:11:33.295734 4828            Options.write_thread_slow_yield_usec: 3
+2022/06/27-00:11:33.295741 4828                               Options.row_cache: None
+2022/06/27-00:11:33.295748 4828                              Options.wal_filter: None
+2022/06/27-00:11:33.295755 4828             Options.avoid_flush_during_recovery: 0
+2022/06/27-00:11:33.295762 4828             Options.allow_ingest_behind: 0
+2022/06/27-00:11:33.295769 4828             Options.preserve_deletes: 0
+2022/06/27-00:11:33.295775 4828             Options.two_write_queues: 0
+2022/06/27-00:11:33.295782 4828             Options.manual_wal_flush: 0
+2022/06/27-00:11:33.295789 4828             Options.atomic_flush: 0
+2022/06/27-00:11:33.295796 4828             Options.avoid_unnecessary_blocking_io: 0
+2022/06/27-00:11:33.295804 4828                 Options.persist_stats_to_disk: 0
+2022/06/27-00:11:33.295810 4828                 Options.write_dbid_to_manifest: 0
+2022/06/27-00:11:33.295817 4828                 Options.log_readahead_size: 0
+2022/06/27-00:11:33.295824 4828                 Options.file_checksum_gen_factory: Unknown
+2022/06/27-00:11:33.295831 4828                 Options.best_efforts_recovery: 0
+2022/06/27-00:11:33.295838 4828                Options.max_bgerror_resume_count: 2147483647
+2022/06/27-00:11:33.295845 4828            Options.bgerror_resume_retry_interval: 1000000
+2022/06/27-00:11:33.295852 4828             Options.allow_data_in_errors: 0
+2022/06/27-00:11:33.295859 4828             Options.db_host_id: __hostname__
+2022/06/27-00:11:33.295865 4828             Options.max_background_jobs: 2
+2022/06/27-00:11:33.295873 4828             Options.max_background_compactions: -1
+2022/06/27-00:11:33.295880 4828             Options.max_subcompactions: 1
+2022/06/27-00:11:33.295887 4828             Options.avoid_flush_during_shutdown: 0
+2022/06/27-00:11:33.295894 4828           Options.writable_file_max_buffer_size: 1048576
+2022/06/27-00:11:33.295901 4828             Options.delayed_write_rate : 16777216
+2022/06/27-00:11:33.295908 4828             Options.max_total_wal_size: 0
+2022/06/27-00:11:33.295915 4828             Options.delete_obsolete_files_period_micros: 21600000000
+2022/06/27-00:11:33.295922 4828                   Options.stats_dump_period_sec: 0
+2022/06/27-00:11:33.295929 4828                 Options.stats_persist_period_sec: 0
+2022/06/27-00:11:33.295936 4828                 Options.stats_history_buffer_size: 65536
+2022/06/27-00:11:33.295944 4828                          Options.max_open_files: -1
+2022/06/27-00:11:33.295951 4828                          Options.bytes_per_sync: 0
+2022/06/27-00:11:33.295957 4828                      Options.wal_bytes_per_sync: 0
+2022/06/27-00:11:33.295965 4828                   Options.strict_bytes_per_sync: 0
+2022/06/27-00:11:33.295972 4828       Options.compaction_readahead_size: 0
+2022/06/27-00:11:33.295979 4828                  Options.max_background_flushes: -1
+2022/06/27-00:11:33.295985 4828 Compression algorithms supported:
+2022/06/27-00:11:33.295993 4828 	kZSTD supported: 1
+2022/06/27-00:11:33.295999 4828 	kSnappyCompression supported: 1
+2022/06/27-00:11:33.296005 4828 	kBZip2Compression supported: 0
+2022/06/27-00:11:33.296012 4828 	kZlibCompression supported: 1
+2022/06/27-00:11:33.296018 4828 	kLZ4Compression supported: 1
+2022/06/27-00:11:33.296211 4828 	kXpressCompression supported: 0
+2022/06/27-00:11:33.296372 4828 	kLZ4HCCompression supported: 1
+2022/06/27-00:11:33.296378 4828 	kZSTDNotFinalCompression supported: 1
+2022/06/27-00:11:33.296385 4828 Fast CRC32 supported: Supported on x86
+2022/06/27-00:11:33.306623 4828 [db\version_set.cc:4848] Recovering from manifest file: D:\Hive\hivemq-4.8.0\data\persistence\retained_messages\040800_R\retained_messages_14/MANIFEST-000084
+2022/06/27-00:11:33.643927 4828 [db\column_family.cc:611] --------------- Options for column family [default]:
+2022/06/27-00:11:33.643943 4828               Options.comparator: leveldb.BytewiseComparator
+2022/06/27-00:11:33.643949 4828           Options.merge_operator: None
+2022/06/27-00:11:33.643953 4828        Options.compaction_filter: None
+2022/06/27-00:11:33.643957 4828        Options.compaction_filter_factory: None
+2022/06/27-00:11:33.643962 4828  Options.sst_partitioner_factory: None
+2022/06/27-00:11:33.643966 4828         Options.memtable_factory: SkipListFactory
+2022/06/27-00:11:33.643971 4828            Options.table_factory: BlockBasedTable
+2022/06/27-00:11:33.644011 4828            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (00000200AA8064A0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 00000200AA6A8F10
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 133005760
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 32768
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+2022/06/27-00:11:33.644018 4828        Options.write_buffer_size: 4156430
+2022/06/27-00:11:33.644022 4828  Options.max_write_buffer_number: 2
+2022/06/27-00:11:33.644027 4828          Options.compression: Snappy
+2022/06/27-00:11:33.644031 4828                  Options.bottommost_compression: Disabled
+2022/06/27-00:11:33.644035 4828       Options.prefix_extractor: nullptr
+2022/06/27-00:11:33.644039 4828   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/06/27-00:11:33.644044 4828             Options.num_levels: 7
+2022/06/27-00:11:33.644048 4828        Options.min_write_buffer_number_to_merge: 1
+2022/06/27-00:11:33.644052 4828     Options.max_write_buffer_number_to_maintain: 0
+2022/06/27-00:11:33.644057 4828     Options.max_write_buffer_size_to_maintain: 0
+2022/06/27-00:11:33.644062 4828            Options.bottommost_compression_opts.window_bits: -14
+2022/06/27-00:11:33.644067 4828                  Options.bottommost_compression_opts.level: 32767
+2022/06/27-00:11:33.644071 4828               Options.bottommost_compression_opts.strategy: 0
+2022/06/27-00:11:33.644076 4828         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/06/27-00:11:33.644084 4828         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/06/27-00:11:33.644090 4828         Options.bottommost_compression_opts.parallel_threads: 1
+2022/06/27-00:11:33.644095 4828                  Options.bottommost_compression_opts.enabled: false
+2022/06/27-00:11:33.644099 4828         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2022/06/27-00:11:33.644104 4828            Options.compression_opts.window_bits: -14
+2022/06/27-00:11:33.644108 4828                  Options.compression_opts.level: 32767
+2022/06/27-00:11:33.644113 4828               Options.compression_opts.strategy: 0
+2022/06/27-00:11:33.644119 4828         Options.compression_opts.max_dict_bytes: 0
+2022/06/27-00:11:33.644125 4828         Options.compression_opts.zstd_max_train_bytes: 0
+2022/06/27-00:11:33.644130 4828         Options.compression_opts.parallel_threads: 1
+2022/06/27-00:11:33.644134 4828                  Options.compression_opts.enabled: false
+2022/06/27-00:11:33.644139 4828         Options.compression_opts.max_dict_buffer_bytes: 0
+2022/06/27-00:11:33.644143 4828      Options.level0_file_num_compaction_trigger: 4
+2022/06/27-00:11:33.644147 4828          Options.level0_slowdown_writes_trigger: 20
+2022/06/27-00:11:33.644152 4828              Options.level0_stop_writes_trigger: 36
+2022/06/27-00:11:33.644156 4828                   Options.target_file_size_base: 67108864
+2022/06/27-00:11:33.644161 4828             Options.target_file_size_multiplier: 1
+2022/06/27-00:11:33.644165 4828                Options.max_bytes_for_level_base: 268435456
+2022/06/27-00:11:33.644170 4828 Options.level_compaction_dynamic_level_bytes: 0
+2022/06/27-00:11:33.644175 4828          Options.max_bytes_for_level_multiplier: 10.000000
+2022/06/27-00:11:33.644179 4828 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/06/27-00:11:33.644184 4828 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/06/27-00:11:33.644188 4828 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/06/27-00:11:33.644193 4828 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/06/27-00:11:33.644197 4828 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/06/27-00:11:33.644202 4828 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/06/27-00:11:33.644206 4828 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/06/27-00:11:33.644211 4828       Options.max_sequential_skip_in_iterations: 8
+2022/06/27-00:11:33.644215 4828                    Options.max_compaction_bytes: 1677721600
+2022/06/27-00:11:33.644219 4828                        Options.arena_block_size: 520192
+2022/06/27-00:11:33.644224 4828   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/06/27-00:11:33.644229 4828   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/06/27-00:11:33.644233 4828       Options.rate_limit_delay_max_milliseconds: 100
+2022/06/27-00:11:33.644238 4828                Options.disable_auto_compactions: 0
+2022/06/27-00:11:33.644243 4828                        Options.compaction_style: kCompactionStyleLevel
+2022/06/27-00:11:33.644248 4828                          Options.compaction_pri: kMinOverlappingRatio
+2022/06/27-00:11:33.644252 4828 Options.compaction_options_universal.size_ratio: 1
+2022/06/27-00:11:33.644257 4828 Options.compaction_options_universal.min_merge_width: 2
+2022/06/27-00:11:33.644261 4828 Options.compaction_options_universal.max_merge_width: 4294967295
+2022/06/27-00:11:33.644266 4828 Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/06/27-00:11:33.644271 4828 Options.compaction_options_universal.compression_size_percent: -1
+2022/06/27-00:11:33.644276 4828 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/06/27-00:11:33.644281 4828 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/06/27-00:11:33.644285 4828 Options.compaction_options_fifo.allow_compaction: 0
+2022/06/27-00:11:33.644291 4828                   Options.table_properties_collectors: 
+2022/06/27-00:11:33.644296 4828                   Options.inplace_update_support: 0
+2022/06/27-00:11:33.644300 4828                 Options.inplace_update_num_locks: 10000
+2022/06/27-00:11:33.644305 4828               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/06/27-00:11:33.644310 4828               Options.memtable_whole_key_filtering: 0
+2022/06/27-00:11:33.644314 4828   Options.memtable_huge_page_size: 0
+2022/06/27-00:11:33.644318 4828                           Options.bloom_locality: 0
+2022/06/27-00:11:33.644323 4828                    Options.max_successive_merges: 0
+2022/06/27-00:11:33.644327 4828                Options.optimize_filters_for_hits: 0
+2022/06/27-00:11:34.111156 4828                Options.paranoid_file_checks: 0
+2022/06/27-00:11:34.111167 4828                Options.force_consistency_checks: 1
+2022/06/27-00:11:34.111172 4828                Options.report_bg_io_stats: 0
+2022/06/27-00:11:34.111177 4828                               Options.ttl: 2592000
+2022/06/27-00:11:34.111182 4828          Options.periodic_compaction_seconds: 0
+2022/06/27-00:11:34.111187 4828                       Options.enable_blob_files: false
+2022/06/27-00:11:34.111194 4828                           Options.min_blob_size: 0
+2022/06/27-00:11:34.111202 4828                          Options.blob_file_size: 268435456
+2022/06/27-00:11:34.111207 4828                   Options.blob_compression_type: NoCompression
+2022/06/27-00:11:34.111214 4828          Options.enable_blob_garbage_collection: false
+2022/06/27-00:11:34.111240 4828      Options.blob_garbage_collection_age_cutoff: 0.250000
+2022/06/27-00:11:34.111249 4828 Options.blob_garbage_collection_force_threshold: 1.000000
+2022/06/27-00:11:34.116741 4828 [db\version_set.cc:4896] Recovered from manifest file:D:\Hive\hivemq-4.8.0\data\persistence\retained_messages\040800_R\retained_messages_14/MANIFEST-000084 succeeded,manifest_file_number is 84, next_file_number is 86, last_sequence is 0, log_number is 81,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2022/06/27-00:11:34.116755 4828 [db\version_set.cc:4905] Column family [default] (ID 0), log number is 81
+2022/06/27-00:11:34.124769 4828 [db\version_set.cc:4386] Creating manifest 88
+2022/06/27-00:11:35.620371 4828 EVENT_LOG_v1 {"time_micros": 1656277895620359, "job": 1, "event": "recovery_started", "wal_files": [85]}
+2022/06/27-00:11:35.620389 4828 [db\db_impl\db_impl_open.cc:878] Recovering log #85 mode 2
+2022/06/27-00:11:36.056414 4828 [db\version_set.cc:4386] Creating manifest 89
+2022/06/27-00:11:39.313189 4828 EVENT_LOG_v1 {"time_micros": 1656277899313145, "job": 1, "event": "recovery_finished"}
+2022/06/27-00:11:39.333444 4828 [file\delete_scheduler.cc:77] Deleted file D:\Hive\hivemq-4.8.0\data\persistence\retained_messages\040800_R\retained_messages_14/000085.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/06/27-00:11:54.901077 4828 [db\db_impl\db_impl_open.cc:1787] SstFileManager instance 00000200ACA076A0
+2022/06/27-00:11:54.905715 4828 DB pointer 00000200AC0E4820

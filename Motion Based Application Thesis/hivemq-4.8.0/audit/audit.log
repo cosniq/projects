@@ -1,0 +1,13 @@
+2022-06-26T01:54:51,899+03:00 | user:"admin" | IP:"" | node:"H7suo" | source:"Default Login" | Session timed out
+2022-06-26T04:05:00,752+03:00 | user:"admin" | IP:"127.0.0.1" | node:"H7suo" | source:"Default Login" | Logged in successful
+2022-06-26T05:06:19,496+03:00 | user:"admin" | IP:"127.0.0.1" | node:"H7suo" | source:"" | Refreshed clients snapshot
+2022-06-26T05:06:50,177+03:00 | user:"admin" | IP:"127.0.0.1" | node:"H7suo" | source:"" | Refreshed retained message snapshot
+2022-06-26T05:06:57,105+03:00 | user:"admin" | IP:"127.0.0.1" | node:"H7suo" | source:"" | Refreshed shared subscription snapshot
+2022-06-26T05:07:03,300+03:00 | user:"admin" | IP:"127.0.0.1" | node:"H7suo" | source:"" | Refreshed clients snapshot
+2022-06-26T05:18:02,043+03:00 | user:"admin" | IP:"127.0.0.1" | node:"H7suo" | source:"" | Refreshed clients snapshot
+2022-06-26T05:18:43,453+03:00 | user:"admin" | IP:"127.0.0.1" | node:"H7suo" | source:"" | Inspected password for client with id "ClientComputerUTCN"
+2022-06-26T05:19:51,697+03:00 | user:"admin" | IP:"127.0.0.1" | node:"H7suo" | source:"" | Refreshed clients snapshot
+2022-06-26T06:21:00,828+03:00 | user:"admin" | IP:"127.0.0.1" | node:"H7suo" | source:"" | Created trace recording "FindingThePublishingTopic" with startTime:"2022-06-26T02:59:49+03:00", endTime:"2022-06-26T03:59:49+03:00", clientIdFilters:["CLID:1651832286529"], topicFilters:[],  packets:["d"]
+2022-06-26T06:23:41,030+03:00 | user:"admin" | IP:"127.0.0.1" | node:"H7suo" | source:"" | Stopped trace recording "FindingThePublishingTopic"
+2022-06-26T06:23:46,564+03:00 | user:"admin" | IP:"127.0.0.1" | node:"H7suo" | source:"" | Downloaded trace recording "FindingThePublishingTopic"
+2022-06-26T10:24:29,762+03:00 | user:"admin" | IP:"" | node:"H7suo" | source:"Default Login" | Session timed out

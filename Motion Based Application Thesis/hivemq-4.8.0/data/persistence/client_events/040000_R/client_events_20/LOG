@@ -1,0 +1,255 @@
+2022/06/28-01:44:22.441780 4b3c RocksDB version: 6.26.1
+2022/06/28-01:44:22.441824 4b3c Git sha 4d57a393a8f1563c0dff1ff468756c23d89e3601
+2022/06/28-01:44:22.441839 4b3c Compile date 2021-11-22 13:08:56
+2022/06/28-01:44:22.441850 4b3c DB SUMMARY
+2022/06/28-01:44:22.441861 4b3c DB Session ID:  WTU5DQ24EVCTR89QL84W
+2022/06/28-01:44:22.445495 4b3c CURRENT file:  CURRENT
+2022/06/28-01:44:22.445515 4b3c IDENTITY file:  IDENTITY
+2022/06/28-01:44:22.445698 4b3c MANIFEST file:  MANIFEST-000103 size: 285 Bytes
+2022/06/28-01:44:22.445714 4b3c SST files in D:\Hive\hivemq-4.8.0\data\persistence\client_events\040000_R\client_events_20 dir, Total Num: 3, files: 000090.sst 000096.sst 000102.sst 
+2022/06/28-01:44:22.445749 4b3c Write Ahead Log file in D:\Hive\hivemq-4.8.0\data\persistence\client_events\040000_R\client_events_20: 000104.log size: 1008 ; 
+2022/06/28-01:44:22.498627 4b3c                         Options.error_if_exists: 0
+2022/06/28-01:44:22.498640 4b3c                       Options.create_if_missing: 1
+2022/06/28-01:44:22.498649 4b3c                         Options.paranoid_checks: 1
+2022/06/28-01:44:22.498657 4b3c             Options.flush_verify_memtable_count: 1
+2022/06/28-01:44:22.498664 4b3c                               Options.track_and_verify_wals_in_manifest: 0
+2022/06/28-01:44:22.498673 4b3c                                     Options.env: 000001985551AEC0
+2022/06/28-01:44:22.498681 4b3c                                      Options.fs: WinFS
+2022/06/28-01:44:22.498689 4b3c                                Options.info_log: 00000198578989D0
+2022/06/28-01:44:22.498697 4b3c                Options.max_file_opening_threads: 16
+2022/06/28-01:44:22.498706 4b3c                              Options.statistics: 0000019855238810
+2022/06/28-01:44:22.498714 4b3c                               Options.use_fsync: 0
+2022/06/28-01:44:22.498721 4b3c                       Options.max_log_file_size: 512000
+2022/06/28-01:44:22.498730 4b3c                  Options.max_manifest_file_size: 1073741824
+2022/06/28-01:44:22.498740 4b3c                   Options.log_file_time_to_roll: 0
+2022/06/28-01:44:22.498748 4b3c                       Options.keep_log_file_num: 2
+2022/06/28-01:44:22.498755 4b3c                    Options.recycle_log_file_num: 0
+2022/06/28-01:44:22.498763 4b3c                         Options.allow_fallocate: 1
+2022/06/28-01:44:22.498771 4b3c                        Options.allow_mmap_reads: 0
+2022/06/28-01:44:22.498779 4b3c                       Options.allow_mmap_writes: 0
+2022/06/28-01:44:22.498786 4b3c                        Options.use_direct_reads: 0
+2022/06/28-01:44:22.498794 4b3c                        Options.use_direct_io_for_flush_and_compaction: 0
+2022/06/28-01:44:22.498802 4b3c          Options.create_missing_column_families: 0
+2022/06/28-01:44:22.498810 4b3c                              Options.db_log_dir: 
+2022/06/28-01:44:22.498817 4b3c                                 Options.wal_dir: 
+2022/06/28-01:44:22.498825 4b3c                Options.table_cache_numshardbits: 6
+2022/06/28-01:44:22.498832 4b3c                         Options.WAL_ttl_seconds: 0
+2022/06/28-01:44:22.498840 4b3c                       Options.WAL_size_limit_MB: 0
+2022/06/28-01:44:22.498848 4b3c                        Options.max_write_batch_group_size_bytes: 1048576
+2022/06/28-01:44:22.498856 4b3c             Options.manifest_preallocation_size: 4194304
+2022/06/28-01:44:22.498864 4b3c                     Options.is_fd_close_on_exec: 1
+2022/06/28-01:44:22.498872 4b3c                   Options.advise_random_on_open: 1
+2022/06/28-01:44:22.498880 4b3c                   Options.experimental_mempurge_threshold: 0.000000
+2022/06/28-01:44:22.498889 4b3c                    Options.db_write_buffer_size: 0
+2022/06/28-01:44:22.498896 4b3c                    Options.write_buffer_manager: 000001985643DF00
+2022/06/28-01:44:22.498905 4b3c         Options.access_hint_on_compaction_start: 1
+2022/06/28-01:44:22.498913 4b3c  Options.new_table_reader_for_compaction_inputs: 0
+2022/06/28-01:44:22.498920 4b3c           Options.random_access_max_buffer_size: 1048576
+2022/06/28-01:44:22.498927 4b3c                      Options.use_adaptive_mutex: 0
+2022/06/28-01:44:22.498970 4b3c                            Options.rate_limiter: 0000000000000000
+2022/06/28-01:44:22.498979 4b3c     Options.sst_file_manager.rate_bytes_per_sec: 0
+2022/06/28-01:44:22.498987 4b3c                       Options.wal_recovery_mode: 2
+2022/06/28-01:44:22.498995 4b3c                  Options.enable_thread_tracking: 0
+2022/06/28-01:44:22.499002 4b3c                  Options.enable_pipelined_write: 0
+2022/06/28-01:44:22.499008 4b3c                  Options.unordered_write: 0
+2022/06/28-01:44:22.499016 4b3c         Options.allow_concurrent_memtable_write: 1
+2022/06/28-01:44:22.499023 4b3c      Options.enable_write_thread_adaptive_yield: 1
+2022/06/28-01:44:22.499031 4b3c             Options.write_thread_max_yield_usec: 100
+2022/06/28-01:44:22.499039 4b3c            Options.write_thread_slow_yield_usec: 3
+2022/06/28-01:44:22.499045 4b3c                               Options.row_cache: None
+2022/06/28-01:44:22.499053 4b3c                              Options.wal_filter: None
+2022/06/28-01:44:22.499061 4b3c             Options.avoid_flush_during_recovery: 0
+2022/06/28-01:44:22.499067 4b3c             Options.allow_ingest_behind: 0
+2022/06/28-01:44:22.499074 4b3c             Options.preserve_deletes: 0
+2022/06/28-01:44:22.499081 4b3c             Options.two_write_queues: 0
+2022/06/28-01:44:22.499087 4b3c             Options.manual_wal_flush: 0
+2022/06/28-01:44:22.499095 4b3c             Options.atomic_flush: 0
+2022/06/28-01:44:22.499101 4b3c             Options.avoid_unnecessary_blocking_io: 0
+2022/06/28-01:44:22.499108 4b3c                 Options.persist_stats_to_disk: 0
+2022/06/28-01:44:22.499114 4b3c                 Options.write_dbid_to_manifest: 0
+2022/06/28-01:44:22.499121 4b3c                 Options.log_readahead_size: 0
+2022/06/28-01:44:22.499128 4b3c                 Options.file_checksum_gen_factory: Unknown
+2022/06/28-01:44:22.499135 4b3c                 Options.best_efforts_recovery: 0
+2022/06/28-01:44:22.499143 4b3c                Options.max_bgerror_resume_count: 2147483647
+2022/06/28-01:44:22.499150 4b3c            Options.bgerror_resume_retry_interval: 1000000
+2022/06/28-01:44:22.499157 4b3c             Options.allow_data_in_errors: 0
+2022/06/28-01:44:22.499163 4b3c             Options.db_host_id: __hostname__
+2022/06/28-01:44:22.499170 4b3c             Options.max_background_jobs: 2
+2022/06/28-01:44:22.499177 4b3c             Options.max_background_compactions: -1
+2022/06/28-01:44:22.499183 4b3c             Options.max_subcompactions: 1
+2022/06/28-01:44:22.499190 4b3c             Options.avoid_flush_during_shutdown: 0
+2022/06/28-01:44:22.499197 4b3c           Options.writable_file_max_buffer_size: 1048576
+2022/06/28-01:44:22.499204 4b3c             Options.delayed_write_rate : 16777216
+2022/06/28-01:44:22.499211 4b3c             Options.max_total_wal_size: 0
+2022/06/28-01:44:22.499218 4b3c             Options.delete_obsolete_files_period_micros: 21600000000
+2022/06/28-01:44:22.499224 4b3c                   Options.stats_dump_period_sec: 0
+2022/06/28-01:44:22.499231 4b3c                 Options.stats_persist_period_sec: 0
+2022/06/28-01:44:22.499238 4b3c                 Options.stats_history_buffer_size: 65536
+2022/06/28-01:44:22.499244 4b3c                          Options.max_open_files: -1
+2022/06/28-01:44:22.499251 4b3c                          Options.bytes_per_sync: 0
+2022/06/28-01:44:22.499258 4b3c                      Options.wal_bytes_per_sync: 0
+2022/06/28-01:44:22.499265 4b3c                   Options.strict_bytes_per_sync: 0
+2022/06/28-01:44:22.499271 4b3c       Options.compaction_readahead_size: 0
+2022/06/28-01:44:22.499278 4b3c                  Options.max_background_flushes: -1
+2022/06/28-01:44:22.499285 4b3c Compression algorithms supported:
+2022/06/28-01:44:22.499291 4b3c 	kZSTD supported: 1
+2022/06/28-01:44:22.499298 4b3c 	kSnappyCompression supported: 1
+2022/06/28-01:44:22.499303 4b3c 	kBZip2Compression supported: 0
+2022/06/28-01:44:22.499310 4b3c 	kZlibCompression supported: 1
+2022/06/28-01:44:22.499316 4b3c 	kLZ4Compression supported: 1
+2022/06/28-01:44:22.499431 4b3c 	kXpressCompression supported: 0
+2022/06/28-01:44:22.499442 4b3c 	kLZ4HCCompression supported: 1
+2022/06/28-01:44:22.499449 4b3c 	kZSTDNotFinalCompression supported: 1
+2022/06/28-01:44:22.499457 4b3c Fast CRC32 supported: Supported on x86
+2022/06/28-01:44:22.512271 4b3c [db\version_set.cc:4848] Recovering from manifest file: D:\Hive\hivemq-4.8.0\data\persistence\client_events\040000_R\client_events_20/MANIFEST-000103
+2022/06/28-01:44:22.520257 4b3c [db\column_family.cc:611] --------------- Options for column family [default]:
+2022/06/28-01:44:22.520269 4b3c               Options.comparator: leveldb.BytewiseComparator
+2022/06/28-01:44:22.520274 4b3c           Options.merge_operator: StringAppendOperator
+2022/06/28-01:44:22.520279 4b3c        Options.compaction_filter: None
+2022/06/28-01:44:22.520283 4b3c        Options.compaction_filter_factory: None
+2022/06/28-01:44:22.520287 4b3c  Options.sst_partitioner_factory: None
+2022/06/28-01:44:22.520291 4b3c         Options.memtable_factory: SkipListFactory
+2022/06/28-01:44:22.520296 4b3c            Options.table_factory: BlockBasedTable
+2022/06/28-01:44:22.520323 4b3c            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000019855231E30)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000019855CBD490
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 133005760
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 32768
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+2022/06/28-01:44:22.520328 4b3c        Options.write_buffer_size: 2078215
+2022/06/28-01:44:22.520333 4b3c  Options.max_write_buffer_number: 2
+2022/06/28-01:44:22.520337 4b3c          Options.compression: Snappy
+2022/06/28-01:44:22.520342 4b3c                  Options.bottommost_compression: Disabled
+2022/06/28-01:44:22.520346 4b3c       Options.prefix_extractor: nullptr
+2022/06/28-01:44:22.520351 4b3c   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/06/28-01:44:22.520355 4b3c             Options.num_levels: 7
+2022/06/28-01:44:22.520359 4b3c        Options.min_write_buffer_number_to_merge: 1
+2022/06/28-01:44:22.520364 4b3c     Options.max_write_buffer_number_to_maintain: 0
+2022/06/28-01:44:22.520368 4b3c     Options.max_write_buffer_size_to_maintain: 0
+2022/06/28-01:44:22.520373 4b3c            Options.bottommost_compression_opts.window_bits: -14
+2022/06/28-01:44:22.520378 4b3c                  Options.bottommost_compression_opts.level: 32767
+2022/06/28-01:44:22.520383 4b3c               Options.bottommost_compression_opts.strategy: 0
+2022/06/28-01:44:22.520387 4b3c         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/06/28-01:44:22.520392 4b3c         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/06/28-01:44:22.520397 4b3c         Options.bottommost_compression_opts.parallel_threads: 1
+2022/06/28-01:44:22.520402 4b3c                  Options.bottommost_compression_opts.enabled: false
+2022/06/28-01:44:22.520407 4b3c         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2022/06/28-01:44:22.520411 4b3c            Options.compression_opts.window_bits: -14
+2022/06/28-01:44:22.520416 4b3c                  Options.compression_opts.level: 32767
+2022/06/28-01:44:22.520422 4b3c               Options.compression_opts.strategy: 0
+2022/06/28-01:44:22.520427 4b3c         Options.compression_opts.max_dict_bytes: 0
+2022/06/28-01:44:22.520432 4b3c         Options.compression_opts.zstd_max_train_bytes: 0
+2022/06/28-01:44:22.520437 4b3c         Options.compression_opts.parallel_threads: 1
+2022/06/28-01:44:22.520442 4b3c                  Options.compression_opts.enabled: false
+2022/06/28-01:44:22.520446 4b3c         Options.compression_opts.max_dict_buffer_bytes: 0
+2022/06/28-01:44:22.520451 4b3c      Options.level0_file_num_compaction_trigger: 4
+2022/06/28-01:44:22.520455 4b3c          Options.level0_slowdown_writes_trigger: 20
+2022/06/28-01:44:22.520459 4b3c              Options.level0_stop_writes_trigger: 36
+2022/06/28-01:44:22.520464 4b3c                   Options.target_file_size_base: 67108864
+2022/06/28-01:44:22.520469 4b3c             Options.target_file_size_multiplier: 1
+2022/06/28-01:44:22.520473 4b3c                Options.max_bytes_for_level_base: 268435456
+2022/06/28-01:44:22.520478 4b3c Options.level_compaction_dynamic_level_bytes: 0
+2022/06/28-01:44:22.520483 4b3c          Options.max_bytes_for_level_multiplier: 10.000000
+2022/06/28-01:44:22.520487 4b3c Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/06/28-01:44:22.520492 4b3c Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/06/28-01:44:22.520497 4b3c Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/06/28-01:44:22.520501 4b3c Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/06/28-01:44:22.520506 4b3c Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/06/28-01:44:22.520510 4b3c Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/06/28-01:44:22.520515 4b3c Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/06/28-01:44:22.520519 4b3c       Options.max_sequential_skip_in_iterations: 8
+2022/06/28-01:44:22.520524 4b3c                    Options.max_compaction_bytes: 1677721600
+2022/06/28-01:44:22.520529 4b3c                        Options.arena_block_size: 262144
+2022/06/28-01:44:22.520533 4b3c   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/06/28-01:44:22.520538 4b3c   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/06/28-01:44:22.520543 4b3c       Options.rate_limit_delay_max_milliseconds: 100
+2022/06/28-01:44:22.520547 4b3c                Options.disable_auto_compactions: 0
+2022/06/28-01:44:22.520552 4b3c                        Options.compaction_style: kCompactionStyleLevel
+2022/06/28-01:44:22.520557 4b3c                          Options.compaction_pri: kMinOverlappingRatio
+2022/06/28-01:44:22.520562 4b3c Options.compaction_options_universal.size_ratio: 1
+2022/06/28-01:44:22.520566 4b3c Options.compaction_options_universal.min_merge_width: 2
+2022/06/28-01:44:22.520571 4b3c Options.compaction_options_universal.max_merge_width: 4294967295
+2022/06/28-01:44:22.520576 4b3c Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/06/28-01:44:22.520581 4b3c Options.compaction_options_universal.compression_size_percent: -1
+2022/06/28-01:44:22.520586 4b3c Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/06/28-01:44:22.520591 4b3c Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/06/28-01:44:22.520595 4b3c Options.compaction_options_fifo.allow_compaction: 0
+2022/06/28-01:44:22.520601 4b3c                   Options.table_properties_collectors: 
+2022/06/28-01:44:22.520606 4b3c                   Options.inplace_update_support: 0
+2022/06/28-01:44:22.520611 4b3c                 Options.inplace_update_num_locks: 10000
+2022/06/28-01:44:22.520615 4b3c               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/06/28-01:44:22.520620 4b3c               Options.memtable_whole_key_filtering: 0
+2022/06/28-01:44:22.520625 4b3c   Options.memtable_huge_page_size: 0
+2022/06/28-01:44:22.520629 4b3c                           Options.bloom_locality: 0
+2022/06/28-01:44:22.520634 4b3c                    Options.max_successive_merges: 0
+2022/06/28-01:44:22.520639 4b3c                Options.optimize_filters_for_hits: 0
+2022/06/28-01:44:22.612807 4b3c                Options.paranoid_file_checks: 0
+2022/06/28-01:44:22.612820 4b3c                Options.force_consistency_checks: 1
+2022/06/28-01:44:22.612827 4b3c                Options.report_bg_io_stats: 0
+2022/06/28-01:44:22.612834 4b3c                               Options.ttl: 2592000
+2022/06/28-01:44:22.612842 4b3c          Options.periodic_compaction_seconds: 0
+2022/06/28-01:44:22.612850 4b3c                       Options.enable_blob_files: false
+2022/06/28-01:44:22.612857 4b3c                           Options.min_blob_size: 0
+2022/06/28-01:44:22.612864 4b3c                          Options.blob_file_size: 268435456
+2022/06/28-01:44:22.612872 4b3c                   Options.blob_compression_type: NoCompression
+2022/06/28-01:44:22.612880 4b3c          Options.enable_blob_garbage_collection: false
+2022/06/28-01:44:22.612891 4b3c      Options.blob_garbage_collection_age_cutoff: 0.250000
+2022/06/28-01:44:22.612899 4b3c Options.blob_garbage_collection_force_threshold: 1.000000
+2022/06/28-01:44:22.627437 4b3c [db\version_set.cc:4896] Recovered from manifest file:D:\Hive\hivemq-4.8.0\data\persistence\client_events\040000_R\client_events_20/MANIFEST-000103 succeeded,manifest_file_number is 103, next_file_number is 105, last_sequence is 456, log_number is 99,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2022/06/28-01:44:22.627453 4b3c [db\version_set.cc:4905] Column family [default] (ID 0), log number is 99
+2022/06/28-01:44:22.631744 4b3c [db\version_set.cc:4386] Creating manifest 107
+2022/06/28-01:44:23.289383 4b3c EVENT_LOG_v1 {"time_micros": 1656369863289376, "job": 1, "event": "recovery_started", "wal_files": [104]}
+2022/06/28-01:44:23.289397 4b3c [db\db_impl\db_impl_open.cc:878] Recovering log #104 mode 2
+2022/06/28-01:44:23.424960 4b3c EVENT_LOG_v1 {"time_micros": 1656369863424302, "cf_name": "default", "job": 1, "event": "table_file_creation", "file_number": 108, "file_size": 1836, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 0, "index_size": 13, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 0, "raw_key_size": 441, "raw_average_key_size": 21, "raw_value_size": 273, "raw_average_value_size": 13, "num_data_blocks": 0, "num_entries": 21, "num_filter_entries": 0, "num_deletions": 21, "num_merge_operands": 0, "num_range_deletions": 21, "format_version": 0, "fixed_key_len": 0, "filter_policy": "", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "StringAppendOperator", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; max_dict_buffer_bytes=0; ", "creation_time": 1656369863, "oldest_key_time": 0, "file_creation_time": 0, "slow_compression_estimated_data_size": 0, "fast_compression_estimated_data_size": 0, "db_id": "8030336b-db3e-11ec-bbfc-0492261d99fd", "db_session_id": "WTU5DQ24EVCTR89QL84W", "orig_file_number": 108}}
+2022/06/28-01:44:23.425021 4b3c [db\version_set.cc:4386] Creating manifest 109
+2022/06/28-01:44:24.260228 4b3c EVENT_LOG_v1 {"time_micros": 1656369864260176, "job": 1, "event": "recovery_finished"}
+2022/06/28-01:44:24.263548 4b3c [file\delete_scheduler.cc:77] Deleted file D:\Hive\hivemq-4.8.0\data\persistence\client_events\040000_R\client_events_20/000104.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/06/28-01:44:25.041304 4b3c [db\db_impl\db_impl_open.cc:1787] SstFileManager instance 0000019858667D10
+2022/06/28-01:44:25.043962 4b3c DB pointer 0000019857D7A360
+2022/06/28-01:44:46.456199 6910 [db\compaction\compaction_job.cc:2221] [default] [JOB 3] Compacting 4@0 files to L1, score 1.00
+2022/06/28-01:44:46.456210 6910 [db\compaction\compaction_job.cc:2225] [default] Compaction start summary: Base version 3 Base level 0, inputs: [108(1836B) 102(1302B) 96(4460B) 90(6431B)]
+2022/06/28-01:44:46.456227 6910 EVENT_LOG_v1 {"time_micros": 1656369886456217, "job": 3, "event": "compaction_started", "compaction_reason": "LevelL0FilesNum", "files_L0": [108, 102, 96, 90], "score": 1, "input_data_size": 14029}
+2022/06/28-01:44:46.658942 6910 EVENT_LOG_v1 {"time_micros": 1656369886658898, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 0, "file_size": 0, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 0, "index_size": 13, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 0, "raw_key_size": 0, "raw_average_key_size": 0, "raw_value_size": 0, "raw_average_value_size": 0, "num_data_blocks": 0, "num_entries": 0, "num_filter_entries": 0, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "StringAppendOperator", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; max_dict_buffer_bytes=0; ", "creation_time": 1656182766, "oldest_key_time": 0, "file_creation_time": 1656369886, "slow_compression_estimated_data_size": 0, "fast_compression_estimated_data_size": 0, "db_id": "8030336b-db3e-11ec-bbfc-0492261d99fd", "db_session_id": "WTU5DQ24EVCTR89QL84W", "orig_file_number": 113}}
+2022/06/28-01:44:46.658985 6910 [db\compaction\compaction_job.cc:1898] [default] [JOB 3] Compacted 4@0 files to L1 => 959 bytes
+2022/06/28-01:44:46.884841 6910 (Original Log Time 2022/06/28-01:44:46.884777) [db\compaction\compaction_job.cc:875] [default] compacted to: files[0 0 0 0 0 0 0] max score 0.00, MB/sec: 0.1 rd, 0.0 wr, level 1, files in(4, 0) out(0 +0 blob) MB in(0.0, 0.0 +0.0 blob) out(0.0 +0.0 blob), read-write-amplify(1.1) write-amplify(0.1) OK, records in: 247, records dropped: 247 output_compression: Snappy
+2022/06/28-01:44:46.884861 6910 (Original Log Time 2022/06/28-01:44:46.884811) EVENT_LOG_v1 {"time_micros": 1656369886884790, "job": 3, "event": "compaction_finished", "compaction_time_micros": 202746, "compaction_time_cpu_micros": 0, "output_level": 1, "num_output_files": 0, "total_output_size": 959, "num_input_records": 247, "num_output_records": 0, "num_subcompactions": 1, "output_compression": "Snappy", "num_single_delete_mismatches": 0, "num_single_delete_fallthrough": 0, "lsm_state": [0, 0, 0, 0, 0, 0, 0]}
+2022/06/28-01:44:46.885166 6910 [file\delete_scheduler.cc:77] Deleted file D:\Hive\hivemq-4.8.0\data\persistence\client_events\040000_R\client_events_20/000108.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/06/28-01:44:46.885184 6910 EVENT_LOG_v1 {"time_micros": 1656369886885179, "job": 3, "event": "table_file_deletion", "file_number": 108}
+2022/06/28-01:44:46.885357 6910 [file\delete_scheduler.cc:77] Deleted file D:\Hive\hivemq-4.8.0\data\persistence\client_events\040000_R\client_events_20/000102.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/06/28-01:44:46.885372 6910 EVENT_LOG_v1 {"time_micros": 1656369886885368, "job": 3, "event": "table_file_deletion", "file_number": 102}
+2022/06/28-01:44:46.885499 6910 [file\delete_scheduler.cc:77] Deleted file D:\Hive\hivemq-4.8.0\data\persistence\client_events\040000_R\client_events_20/000096.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/06/28-01:44:46.885514 6910 EVENT_LOG_v1 {"time_micros": 1656369886885509, "job": 3, "event": "table_file_deletion", "file_number": 96}
+2022/06/28-01:44:46.885651 6910 [file\delete_scheduler.cc:77] Deleted file D:\Hive\hivemq-4.8.0\data\persistence\client_events\040000_R\client_events_20/000090.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/06/28-01:44:46.885668 6910 EVENT_LOG_v1 {"time_micros": 1656369886885664, "job": 3, "event": "table_file_deletion", "file_number": 90}

@@ -1,0 +1,62 @@
+<link rel="stylesheet" href="./views/invoiceType/it.css" />
+<h5>Invoice Type Wizard</h5>
+<div
+  style="
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  "
+>
+  <div id="kendoGridInvoiceTypes"></div>
+</div>
+<script>
+  $("#kendoGridInvoiceTypes").kendoGrid({
+    columns: [
+      { field: "id", title: "ID", type: "number", editable: false },
+      { field: "name", title: "Name", type: "string" },
+      {
+        field: "counterType",
+        title: "Counter Type",
+        type: "string",
+      },
+      {
+        field: "costOnlyDependentOnUsage",
+        title: "Cost only dependent on usage",
+        type: "boolean",
+      },
+      { command: "edit" },
+    ],
+    toolbar: [{ name: "create", text: "Add new Invoice Type" }],
+    scrollable: true,
+    sortable: true,
+    pageable: false,
+    dataSource: {
+      data: [],
+    },
+    selectable: "row",
+    editable: "inline",
+    height: "600px",
+    dataBound: function (e) {
+      try {
+        const scope = angular.element(this.element[0]).scope();
+        const InvoiceTypes = scope.InvoiceTypes;
+        if (
+          InvoiceTypes &&
+          InvoiceTypes.length > this.dataSource.data().length &&
+          !scope.activeCall
+        ) {
+          scope.activeCall = true;
+          utils.helperFunctions.deleteAllDataFromDataSource(this.dataSource);
+          utils.helperFunctions.addAllDataToDataSource(
+            this.dataSource,
+            InvoiceTypes
+          );
+          scope.activeCall = false;
+        }
+      } catch {
+        console.error("error");
+      }
+    },
+  });
+</script>

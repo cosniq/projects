@@ -1,0 +1,43 @@
+<link rel="stylesheet" type="text/css" href="./views/login/login.css" />
+<div class="background"></div>
+<div class="container">
+  <h1>Login</h1>
+  <form ng-submit="login()" class="login-content">
+    <div class="input-div user">
+      <div class="icon">
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="div">
+        <h5>Username</h5>
+        <input
+          type="text"
+          class="input"
+          id="username"
+          name="username"
+          required
+          pattern="\S+.*"
+          ng-model="username"
+        />
+      </div>
+    </div>
+
+    <div class="input-div pass">
+      <div class="icon">
+        <i class="fas fa-lock"></i>
+      </div>
+      <div class="div">
+        <h5>Password</h5>
+        <input
+          type="password"
+          class="input"
+          id="password"
+          name="password"
+          required
+          pattern="\S+.*"
+          ng-model="password"
+        />
+      </div>
+    </div>
+    <button type="submit" class="btnLogin">Submit</button>
+  </form>
+</div>

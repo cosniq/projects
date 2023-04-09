@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Backend/Backend/.vs
+/Backend/Backend/BusinessLayer/bin
+/Backend/Backend/BusinessLayer/obj
+/Backend/Backend/DataTransferObjects/bin
+/Backend/Backend/DataTransferObjects/obj
+/Backend/Backend/RepositoryLayer/bin
+/Backend/Backend/RepositoryLayer/obj
+/Backend/Backend/WebApi/bin/
+/Backend/Backend/WebApi/obj

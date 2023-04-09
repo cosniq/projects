@@ -1,0 +1,894 @@
+{
+	"info": {
+		"_postman_id": "bddd43de-2399-4b74-b63c-a1f918200ca2",
+		"name": "TiaProject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16005455"
+	},
+	"item": [
+		{
+			"name": "RegisterNewUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"admin4\",\r\n    \"password\":\"admin4\",\r\n    \"email\":\"mail4@admin.com\",\r\n    \"DateOfBirth\":\"2000-01-01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7268/api/User/Register",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"User",
+						"Register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"admin4\",\r\n    \"password\":\"admin4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7268/api/User/Login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"User",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetDetailsOfUser",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7268/api/User/GetDetailsOfUser?username=admin4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"User",
+						"GetDetailsOfUser"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "admin4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateDetailsOfUser",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1002,\r\n    \"username\": \"Admin4\",\r\n    \"email\": \"mail@admin4.com\",\r\n    \"dateOfBirth\": \"2000-01-02T00:00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7268/api/User",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"User"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllUnitsOfMeasurement",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7268/api/UnitOfMeasurements",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"UnitOfMeasurements"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertNewUnitOfMeasurement",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7268/api/UnitOfMeasurements?symbol=m3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"UnitOfMeasurements"
+					],
+					"query": [
+						{
+							"key": "symbol",
+							"value": "m3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllCounterTypes",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7268/api/CounterType",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"CounterType"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertNewCounterType",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\" : \"Gas Counter\",\r\n    \"UnitOfMeasurement\": \"m3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7268/api/CounterType",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"CounterType"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateACounterType",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"name\": \"Gas Counter\",\r\n        \"unitOfMeasurement\": \"m3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7268/api/CounterType",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"CounterType"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllInvoiceTypes",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7268/api/InvoiceType",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"InvoiceType"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertNewInvoiceType",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\": \"Gas Invoice\",\r\n    \"CounterType\": \"Gas Counter\",\r\n    \"CostOnlyDependentOnUsage\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7268/api/InvoiceType",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"InvoiceType"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateAnInvoiceType",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"name\": \"Gas Invoice\",\r\n        \"counterType\": \"Gas Counter\",\r\n        \"costOnlyDependentOnUsage\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7268/api/InvoiceType",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"InvoiceType"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetIdOfLocation",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Address\": \"69 Test Street\",\r\n    \"Description\": \"Home\",\r\n    \"UserId\": 1002\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7268/api/Location/GetIdOfLocation",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"Location",
+						"GetIdOfLocation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get ViewModel",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7268/api/Location",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"Location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Submit ViewModel",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"locations\": [\r\n        {\r\n            \"address\": \"69 Test Street\",\r\n            \"description\": \"Home\",\r\n            \"months\": [\r\n                {\r\n                    \"description\": \"2023 January\",\r\n                    \"invoices\": [\r\n                        {\r\n                            \"price\": 108.95,\r\n                            \"counter\": {\r\n                                \"serialNr\": \"SN10\",\r\n                                \"indexReadings\": [\r\n                                    {\r\n                                        \"indexReading\": 3,\r\n                                        \"dateOfReading\": \"2023-01-07T15:38:00\"\r\n                                    }\r\n                                ],\r\n                                \"unitOfMeasurement\": \"m3\"\r\n                            },\r\n                            \"invoiceTypeName\": \"Gas Invoice\"\r\n                        }\r\n                    ]\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"userId\": 1002\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7268/api/Location",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"Location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertNewLocationForUser",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"address\":\"69 Test Street\",\r\n    \"Description\" :\"Home\",\r\n    \"userid\":\"1002\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7268/api/Location",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"Location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateLocationOfUser",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Address\": \"69 Test Street\",\r\n    \"Description\": \"Home\",\r\n    \"UserId\": 1002,\r\n    \"Id\": 1002\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7268/api/Location",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"Location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetLocationInvoiceTypeRelations",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7268/api/LocationInvoiceTypeRelations",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"LocationInvoiceTypeRelations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertNewLocationInvoiceTypeRelation",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"LocationDescription\":\"Home\",\r\n    \"InvoiceTypeName\":\"Gas Invoice\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7268/api/LocationInvoiceTypeRelations",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"LocationInvoiceTypeRelations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MarkLocationInvoiceTypeRelationAsInactive",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"locationDescription\": \"Home\",\r\n        \"invoiceTypeName\": \"Gas Invoice\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7268/api/LocationInvoiceTypeRelations",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"LocationInvoiceTypeRelations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCounters",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7268/api/Counter",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"Counter"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateCountersSerialNr",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\":1,\r\n    \"SerialNumber\":\"SN10\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7268/api/Counter",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"Counter"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddOneMonthForLocation",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7268/api/Months?locationDescription=Home",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"Months"
+					],
+					"query": [
+						{
+							"key": "locationDescription",
+							"value": "Home"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateMonthsDescription",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwtToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"OldDescription\": \"2023 január\",\r\n    \"NewDescription\": \"2023 January\",\r\n    \"LocationDescription\": \"Home\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7268/api/Months",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7268",
+					"path": [
+						"api",
+						"Months"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "jwtToken",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

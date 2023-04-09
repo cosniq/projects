@@ -1,0 +1,13 @@
+2022-06-22T00:15:47,088+03:00 | user:"admin" | IP:"127.0.0.1" | node:"YlgOe" | source:"Default Login" | Logged in successful
+2022-06-22T00:16:19,773+03:00 | user:"admin" | IP:"127.0.0.1" | node:"YlgOe" | source:"" | Refreshed clients snapshot
+2022-06-22T00:16:28,160+03:00 | user:"admin" | IP:"127.0.0.1" | node:"YlgOe" | source:"" | Refreshed shared subscription snapshot
+2022-06-22T00:16:33,855+03:00 | user:"admin" | IP:"127.0.0.1" | node:"YlgOe" | source:"" | Refreshed shared subscription snapshot
+2022-06-22T00:16:51,652+03:00 | user:"admin" | IP:"127.0.0.1" | node:"YlgOe" | source:"" | Refreshed shared subscription snapshot
+2022-06-22T00:17:01,276+03:00 | user:"admin" | IP:"127.0.0.1" | node:"YlgOe" | source:"" | Refreshed retained message snapshot
+2022-06-22T00:17:10,570+03:00 | user:"admin" | IP:"127.0.0.1" | node:"YlgOe" | source:"" | Refreshed retained message snapshot
+2022-06-22T04:21:36,111+03:00 | user:"admin" | IP:"" | node:"YlgOe" | source:"Default Login" | Session timed out
+2022-06-22T05:20:35,752+03:00 | user:"admin" | IP:"127.0.0.1" | node:"YlgOe" | source:"Default Login" | Logged in successful
+2022-06-22T05:21:58,345+03:00 | user:"admin" | IP:"127.0.0.1" | node:"YlgOe" | source:"" | Created trace recording "VerificareClientC" with startTime:"2022-06-22T02:20:48+03:00", endTime:"2022-06-22T03:20:49+03:00", clientIdFilters:[], topicFilters:["from_9d6956a3ac2ccd0f"],  packets:["d"]
+2022-06-22T16:44:16,352+03:00 | user:"admin" | IP:"127.0.0.1" | node:"5T4xt" | source:"Default Login" | Logged in successful
+2022-06-22T16:44:30,322+03:00 | user:"admin" | IP:"127.0.0.1" | node:"5T4xt" | source:"" | Refreshed clients snapshot
+2022-06-22T20:50:06,228+03:00 | user:"admin" | IP:"" | node:"5T4xt" | source:"Default Login" | Session timed out

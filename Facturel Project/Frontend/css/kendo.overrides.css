@@ -1,0 +1,363 @@
+:root {
+  --myfont-color: #daf1de;
+  --div-background: rgba(42, 71, 63, 0.6);
+  --icon-color: #235347;
+  --darkest-green: #051f20;
+  --highlighted: #8eb69b;
+  --input-background: rgba(42, 71, 63, 0.8);
+  --btn-color: #63b10a;
+}
+.content {
+  font-family: "Exo", sans-serif;
+}
+.content .k-i-calendar {
+  margin-top: -7px;
+}
+
+.content .k-i-calendar::before {
+  content: url("../images/date-icon.svg");
+  color: #daf1de;
+  /* margin-top: -7px; */
+}
+
+.content .k-plus::before {
+  content: url("../images/play-solid.svg");
+  transition: 3s;
+}
+
+.content .k-minus::before {
+  content: url("../images/caret-down-solid.svg");
+  transition: 3s;
+}
+
+.content .k-plus {
+  height: auto;
+  transition: 3s;
+}
+
+.content .k-minus {
+  height: auto;
+  transition: 3s;
+}
+
+.content .k-loading-image {
+  background-image: url("../images/loading-image.gif");
+  background-size: 5%;
+}
+
+.content .k-edit::before {
+  content: url("../images/pen-solid.svg");
+}
+
+.content .k-add::before {
+  content: url("../images/plus-solid.svg");
+}
+
+.content .k-add::before svg path {
+  fill: var(--myfont-color);
+}
+
+.content .k-save::before {
+  content: url("../images/floppy-disk-solid.svg");
+}
+
+.content .k-delete::before {
+  content: url("../images/trash-can-solid.svg");
+}
+
+.content .k-delete {
+  height: fit-content;
+}
+
+body .k-update::before {
+  content: url("../images/floppy-disk-solid.svg");
+  /* color:var(--icon-color);
+  background-color: var(--icon-color); */
+}
+
+body .k-cancel::before {
+  content: url("../images/ban-solid.svg");
+}
+
+body .k-group-delete::before {
+  content: url("../images/x-solid.svg");
+  height: 10px;
+  width: 10px;
+  display: flex;
+  margin: auto;
+  margin-top: 2px;
+}
+
+body .k-si-arrow-n::before {
+  content: url("../images/arrow-up-solid.svg");
+  height: 15px;
+  width: 10px;
+  display: flex;
+  margin: auto;
+  margin-top: -2px;
+}
+
+body .k-si-arrow-s::before {
+  content: url("../images/arrow-down-solid.svg");
+  height: 15px;
+  width: 10px;
+  display: flex;
+  margin: auto;
+  margin-top: -2px;
+}
+
+body .k- {
+  content: url("../images/play-solid.svg");
+}
+
+.content .k-i-collapse::before {
+  content: url("../images/caret-down-solid.svg");
+  height: 16px;
+  width: 16px;
+  display: flex;
+  margin-left: -2px;
+}
+
+.content .k-i-expand::before {
+  content: url("../images/play-solid.svg");
+  height: 16px;
+  width: 16px;
+  display: flex;
+  margin-left: -2px;
+}
+
+.content .k-widget {
+  border-radius: 10px 10px 4px 4px;
+  max-width: 90vw;
+  /* background-color: transparent; */
+}
+
+.content .k-grid {
+  background-color: var(--div-background);
+  box-shadow: 0 0 13px 6px var(--icon-color);
+}
+
+.content .k-grid-content,
+.k-grid .k-widget {
+  background-color: var(--div-background);
+  color: var(--myfont-color);
+  margin: var(--div-background);
+  padding: var(--div-background);
+  box-shadow: 0 0 13px 6px var(--icon-color);
+}
+
+.content .k-grid-toolbar,
+.content .k-grouping-header {
+  background-color: #000000;
+  box-shadow: 0 0 13px 6px var(--icon-color);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.content .k-grid .k-grid-header .k-link,
+.k-header,
+.content .k-grid .k-grid-header {
+  background-color: var(--div-background);
+  color: var(--myfont-color);
+}
+
+.content .k-grid-header {
+  margin-top: 1px;
+  box-shadow: 0 0 10px 10px var(--icon-color);
+}
+
+.content .k-button {
+  background-color: var(--div-background);
+  color: var(--myfont-color);
+}
+
+/* .content .k-icon{
+  color:var(--icon-color);
+} */
+
+.content .k-state-selected {
+  background-color: #0197f6;
+}
+
+
+
+.content #kendoGridDashboard {
+  border-radius: 10px 10px 4px 4px;
+  max-width: 90vw;
+  background-color: #051f20;
+}
+
+/* .content #monthGridForLocation .k-grid .k-grid-header {
+  border-radius: 10px 10px 4px 4px; 
+   overflow: hidden;
+} */
+
+/* .content #monthGridForLocation .k-grid .k-detail-cell .k-grid .k-grid-header{
+  border-radius: 10px 10px 0px 0px;
+  background-color: red;
+  color: red;
+}
+
+.content .k-detail-cell{
+  margin: 20px solid red;
+  background-color: red;
+}
+
+.content .k-detail-cell .k-grid-header{
+  background-color: blue;
+} */
+
+/* .content .k-grid-header{
+  border-radius: 4px 4px 0px 0px;
+}
+
+.content .k-header{
+  border-radius: 8px 0px 0px 8px;
+}
+*/
+.content table,
+th,
+td {
+  border: #000000;
+  outline: none;
+  background-color: var(--div-background);
+  color: var(--myfont-color);
+}
+
+.k-alt {
+  background-color: var(--highlighted);
+  color: var(--darkest-green); 
+}
+.content .k-widget {
+  outline: none;
+}
+
+.k-grid {
+  outline: none;
+}
+
+.content .k-detail-cell {
+  animation: slide-left 2s ease-out both;
+}
+
+.content .k-window-content .k-content {
+  /* animation: none;
+  animation: slide-left 2s ease-out both;
+  width: 100vw; */
+  background-color: red;
+}
+.k-window {
+  box-shadow: 0 0 15px 6px var(--highlighted);
+  animation: slide-left 0.5s ease-out both;
+}
+
+.k-window .k-window-tiltebar,
+.k-window .k-window-title {
+  color: var(--darkest-green);
+  /* background-color: var(--div-background); */
+}
+
+.k-edit-form-container .k-edit-field,
+.k-edit-label {
+  background-color: #051f20;
+  color: var(--myfont-color);
+}
+
+.k-edit-form-container input {
+  color: var(--myfont-color);
+  background-color: var(--div-background);
+  box-shadow: 4px 4px 5px 2px var(--highlighted);
+}
+
+.k-edit-form-container,
+.k-popup-edit-form {
+  background-color: var(--darkest-green);
+}
+
+.k-popup-edit-form {
+  /* box-shadow: 0 0 10px 5px var(--highlighted) ; */
+}
+.k-edit-form-container .k-edit-buttons .k-button {
+  background-color: var(--icon-color);
+  color: #daf1de;
+  outline: none;
+}
+
+.k-edit-form-container .k-edit-buttons .k-button::click {
+  margin: none;
+  padding: none;
+  outline: none;
+}
+
+.k-edit-form-container .k-edit-buttons .k-button {
+  margin: none;
+  padding: none;
+  background-color: var(--highlighted);
+  color: var(--darkest-green);
+  outline: none;
+}
+
+.content .k-grouping-header .k-link {
+  color: var(--myfont-color);
+}
+
+.content .k-grouping-header,
+.content .k-grouping-row td,
+.content .k-group-cell {
+  background-color: var(--div-background);
+  color: var(--myfont-color);
+}
+
+/* ANIMATIONS */
+
+.rotateAnimation {
+  animation: rotate 2s ease-out both;
+}
+
+.rotateInverseAnimation {
+  animation: rotateInverse 2s ease-out both;
+}
+
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(-400px);
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes rotateInverse {
+  0% {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+body .k-primary {
+  background-image: none, var(--btn-color);
+  border-color: var(--btn-color);
+}
